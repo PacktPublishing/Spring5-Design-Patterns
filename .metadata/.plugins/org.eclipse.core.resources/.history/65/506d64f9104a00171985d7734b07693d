@@ -1,0 +1,13 @@
+package com.packt.patterninspring.chapter2.decorator.pattern;
+
+import com.packt.patterninspring.chapter2.model.Account;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public abstract class AccountDecorator implements Account{
+	
+	abstract void applyBenifits();
+
+}

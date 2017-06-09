@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+package com.packt.patterninspring.chapter2.decorator.pattern;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class SeniorCitizen extends AccountDecorator {
+
+	/* (non-Javadoc)
+	 * @see com.packt.patterninspring.chapter2.decorator.pattern.Account#getTotalBenifits()
+	 */
+	@Override
+	public String getTotalBenifits() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see com.packt.patterninspring.chapter2.decorator.pattern.AccountDecorator#applyBenifits()
+	 */
+	@Override
+	void applyBenifits() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

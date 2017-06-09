@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=Chapter-02-Common-Design-Patterns/src&lt;com.packt.patterninspring.chapter2.model{Bank.java[Bank" modifiers="513" timestamp="1495958944310"/>
+<typeInfo handle="=Chapter-02-Common-Design-Patterns/src&lt;com.packt.patterninspring.chapter2.abstractfactory.pattern{AbstractFactory.java[AbstractFactory" modifiers="1025" timestamp="1495965226063"/>
+<typeInfo handle="=Chapter-02-Common-Design-Patterns/src&lt;com.packt.patterninspring.chapter2.builder.pattern{LoanBuilder.java[LoanBuilder" modifiers="513" timestamp="1496302304331"/>
+<typeInfo handle="=Chapter-02-Common-Design-Patterns/src&lt;com.packt.patterninspring.chapter2.decorator.pattern{Account.java[Account" modifiers="513" timestamp="1496684490161"/>
+<typeInfo handle="=Chapter-02-Common-Design-Patterns/src&lt;com.packt.patterninspring.chapter2.decorator.pattern{AccountDecorator.java[AccountDecorator" modifiers="1025" timestamp="1496684475631"/>
+</typeInfoHistroy>

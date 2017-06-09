@@ -1,0 +1,18 @@
+package com.packt.patterninspring.chapter2.facade.pattern;
+
+import com.packt.patterninspring.chapter2.model.Account;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class BankingServiceFacadeImpl implements BankingServiceFacade{
+
+	@Override
+	public void moneyTransfer() {
+		if(PaymentService.doPayment()){
+			Account account = AccountService.getAccount("1");
+		}
+	}
+
+}

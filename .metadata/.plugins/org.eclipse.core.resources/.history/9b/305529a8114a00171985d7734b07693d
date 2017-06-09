@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.packt.patterninspring.chapter2.decorator.pattern;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class CurrentAccount {
+
+}

@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+package com.packt.patterninspring.chapter2.composite.pattern;
+
+import com.packt.patterninspring.chapter2.model.Account;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class CompositeBankAccount implements Account {
+
+	/* (non-Javadoc)
+	 * @see com.packt.patterninspring.chapter2.model.Account#accountType()
+	 */
+	@Override
+	public void accountType() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

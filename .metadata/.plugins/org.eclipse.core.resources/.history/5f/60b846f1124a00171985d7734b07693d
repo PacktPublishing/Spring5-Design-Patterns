@@ -1,0 +1,7 @@
+package com.packt.patterninspring.chapter2.decorator.pattern;
+
+public interface Account {
+	static finalString accountDescription;
+	
+	String getTotalBenifits();
+}

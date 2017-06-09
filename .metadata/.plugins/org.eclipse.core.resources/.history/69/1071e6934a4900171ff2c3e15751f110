@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package com.packt.patterninspring.chapter2.composite.pattern;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class CompositePatternMain {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

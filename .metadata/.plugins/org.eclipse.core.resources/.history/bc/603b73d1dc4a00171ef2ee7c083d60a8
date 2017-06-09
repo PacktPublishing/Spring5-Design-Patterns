@@ -1,0 +1,14 @@
+package com.packt.patterninspring.chapter2.facade.pattern;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class BankingServiceFacadeImpl implements BankingServiceFacade{
+
+	@Override
+	public void moneyTransfer() {
+		
+	}
+
+}

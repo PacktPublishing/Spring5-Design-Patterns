@@ -1,0 +1,5 @@
+package com.packt.patterninspring.chapter2.bridge.pattern;
+
+public interface Account {
+
+}

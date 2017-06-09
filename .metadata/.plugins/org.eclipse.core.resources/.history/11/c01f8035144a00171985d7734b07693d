@@ -1,0 +1,26 @@
+package com.packt.patterninspring.chapter2.decorator.pattern;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class SeniorCitizen extends AccountDecorator {
+	
+	Account account;
+	
+	public SeniorCitizen(Account account) {
+		super();
+		this.account = account;
+	}
+
+	@Override
+	public String getTotalBenifits() {
+		return "";
+	}
+
+	@Override
+	String applyOtherBenifits() {
+		return "Provide free insurance of up to $1,600 for Senior Citizen";
+	}
+
+}

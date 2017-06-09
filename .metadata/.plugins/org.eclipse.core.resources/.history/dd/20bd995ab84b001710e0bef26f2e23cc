@@ -1,0 +1,17 @@
+package com.packt.patterninspring.chapter2.proxy.pattern;
+
+import com.packt.patterninspring.chapter2.model.Account;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class ProxyAccount implements Account{
+
+	@Override
+	public void accountType() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

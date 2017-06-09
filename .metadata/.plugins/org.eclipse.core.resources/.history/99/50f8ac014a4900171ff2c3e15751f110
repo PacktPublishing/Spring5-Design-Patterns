@@ -1,0 +1,16 @@
+package com.packt.patterninspring.chapter2.composite.pattern;
+
+import com.packt.patterninspring.chapter2.model.Account;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class CompositeBankAccount implements Account {
+
+	@Override
+	public void accountType() {
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package com.packt.patterninspring.chapter2.facade.pattern;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class FacadePatternClient {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

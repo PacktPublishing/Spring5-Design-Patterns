@@ -1,0 +1,14 @@
+package com.packt.patterninspring.chapter2.decorator.pattern;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class DecoratorPatternMain {
+
+	public static void main(String[] args) {
+		Account basicSavingAccount = new SavingAccount()l
+		
+	}
+
+}

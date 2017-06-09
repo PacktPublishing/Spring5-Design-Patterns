@@ -1,0 +1,15 @@
+package com.packt.patterninspring.chapter2.decorator.pattern;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class DecoratorPatternMain {
+
+	public static void main(String[] args) {
+		/*Saving account with no decoration*/
+		Account basicSavingAccount = new SavingAccount();
+		System.out.println(basicSavingAccount.getTotalBenifits());
+	}
+
+}

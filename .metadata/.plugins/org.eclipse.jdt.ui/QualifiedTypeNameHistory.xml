@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.factory.Account"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.factory.CurrentAccount"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.factory.SavingAccount"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.factory.pattern.AccountFactory"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.model.ICICIBank"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.model.YesBank"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.prototype.pattern.Account"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.prototype.pattern.CurrentAccount"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.lang.Cloneable"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.builder.pattern.Loan"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.builder.pattern.LoanBuilder"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.builder.pattern.LoanManager"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.builder.pattern.HomeLoanBuilder"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.builder.pattern.CarLoanBuilder"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.builder.pattern.Account"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.builder.pattern.Account.AccountBuilder"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.prototype.pattern.SavingAccount"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.adapter.pattern.PaymentGateway"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.adapter.pattern.PaymentGatewayImpl"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.adapter.pattern.AdvancedPayGateway"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.adapter.pattern.AdvancedPaymentGatewayAdapter"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.decorator.pattern.SavingAccount"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.decorator.pattern.SeniorCitizen"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.decorator.pattern.Privilege"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.facade.pattern.PaymentService"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.facade.pattern.AccountService"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.facade.pattern.TransferService"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.facade.pattern.BankingServiceFacade"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.facade.pattern.BankingServiceFacadeImpl"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.model.CurrentAccount"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.decorator.pattern.Account"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.model.SavingAccount"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.model.Account"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.proxy.pattern.ProxySavingAccount"/>
+</qualifiedTypeNameHistroy>

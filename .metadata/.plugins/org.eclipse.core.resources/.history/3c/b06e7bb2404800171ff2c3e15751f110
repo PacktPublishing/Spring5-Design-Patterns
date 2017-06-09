@@ -1,0 +1,17 @@
+package com.packt.patterninspring.chapter2.bridge.pattern;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public abstract class Bank {
+	//Composition - implementor
+	protected Account account;
+	
+	//constructor with implementor as input argument
+	public Bank(Account account){
+		this.account = account;
+	}
+	
+	abstract Account openAccount();
+}

@@ -1,0 +1,17 @@
+package com.packt.patterninspring.chapter2.bridge.pattern;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class BridgePatternMain {
+
+	public static void main(String[] args) {
+		Bank icici = new IciciBank(new CurrentAccount());
+		icici.openAccount();
+		
+		Bank hdfc = new HdfcBank(new SavingAccount());
+		hdfc.openAccount();
+	}
+
+}
