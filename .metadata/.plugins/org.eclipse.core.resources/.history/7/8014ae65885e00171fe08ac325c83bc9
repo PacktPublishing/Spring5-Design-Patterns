@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+package com.packt.patterninspring.chapter4.bankapp;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.packt.patterninspring.chapter4.bankapp.repository.IAccountRepository;
+import com.packt.patterninspring.chapter4.bankapp.service.TransferService;
+
+/**
+ * @author Dinesh Rajput
+ *
+ */
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+		TransferService transferService = applicationContext.getBean(TransferService.class);
+		IAccountRepository accountRepository = applicationContext.getBean(IAccountRepository.class);
+		IAccountRepository accountRepository2 = applicationContext.getBean(IAccountRepository.class);
+		//TransferService transferService =  applicationContext.getBean(TransferService.class);
+		transferService.transfer("A", "B", 3000.1);
+		System.out.println(accountRepository==accountRepository2);
+	}
+
+}

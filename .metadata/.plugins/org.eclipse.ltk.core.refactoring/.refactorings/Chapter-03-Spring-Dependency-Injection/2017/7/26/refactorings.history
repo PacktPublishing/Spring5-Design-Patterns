@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;applicationContext.xml&apos; to &apos;Chapter-04-Spring-Factory-Bean/config&apos;&#x0D;&#x0A;- Original project: &apos;Chapter-03-Spring-Dependency-Injection&apos;&#x0D;&#x0A;- Destination element: &apos;Chapter-04-Spring-Factory-Bean/config&apos;&#x0D;&#x0A;- Original element: &apos;applicationContext.xml&apos;" description="Copy file" destination="=Chapter-04-Spring-Factory-Bean/config" element1="configure/applicationContext.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1498932372825" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,21 @@
+package com.packt.patterninspring.chapter4.bankapp.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+import com.packt.patterninspring.chapter4.bankapp.repository.AccountRepositoryFactoryBean;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+@Configuration
+@ComponentScan(basePackages={"com.doj.app.service"})
+public class AppConfig {
+	
+	@Bean
+	public AccountRepositoryFactoryBean accountRepository(){
+		return new AccountRepositoryFactoryBean();
+	}
+}

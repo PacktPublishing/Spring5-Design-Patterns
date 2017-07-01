@@ -37,4 +37,9 @@
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.model.SavingAccount"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.model.Account"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.proxy.pattern.ProxySavingAccount"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter3.bankapp.repository.jdbc.JdbcAccountRepository"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter3.bankapp.repository.jdbc.JdbcTransferRepository"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
 </qualifiedTypeNameHistroy>

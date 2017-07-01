@@ -1,10 +1,12 @@
 package com.packt.patterninspring.chapter1.bankapp.service;
 
+import org.springframework.stereotype.Component;
+
 import com.packt.patterninspring.chapter1.bankapp.model.Account;
 import com.packt.patterninspring.chapter1.bankapp.model.Amount;
 import com.packt.patterninspring.chapter1.bankapp.repository.AccountRepository;
 import com.packt.patterninspring.chapter1.bankapp.repository.TransferRepository;
-
+@Component
 public class TransferServiceImpl implements TransferService {
 
 	AccountRepository accountRepository;

@@ -1,0 +1,39 @@
+package com.packt.patterninspring.chapter3.bankapp.service;
+
+import com.packt.patterninspring.chapter3.bankapp.model.Account;
+import com.packt.patterninspring.chapter3.bankapp.model.Amount;
+import com.packt.patterninspring.chapter3.bankapp.repository.AccountRepository;
+import com.packt.patterninspring.chapter3.bankapp.repository.TransferRepository;
+
+public class TransferServiceImpl implements TransferService {
+
+	AccountRepository accountRepository;
+	
+	TransferRepository transferRepository;
+	
+	public TransferServiceImpl() {
+		super();
+	}
+
+	public TransferServiceImpl(AccountRepository accountRepository, TransferRepository transferRepository) {
+		super();
+		this.accountRepository = accountRepository;
+		this.transferRepository = transferRepository;
+	}
+	
+	@Override
+	public void transferAmmount(Long a, Long b, Amount amount) {
+		Account accountA = accountRepository.findByAccountId(a);
+		Account accountB = accountRepository.findByAccountId(b);
+		transferRepository.transfer(accountA, accountB, amount);
+	}
+
+	public void setAccountRepository(AccountRepository accountRepository) {
+		this.accountRepository = accountRepository;
+	}
+
+	public void setTransferRepository(TransferRepository transferRepository) {
+		this.transferRepository = transferRepository;
+	}
+	
+}

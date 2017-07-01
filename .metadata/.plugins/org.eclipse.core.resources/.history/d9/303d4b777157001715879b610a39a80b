@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="transferService" class="com.packt.patterninspring.chapter3.bankapp.service.TransferServiceImpl">
+		<property name="accountRepository"  ref="accountRepository"/>
+		<property name="transferRepository" ref="transferRepository"/>
+	</bean>
+	<bean id="accountRepository" class="com.packt.patterninspring.chapter3.bankapp.repository.jdbc.JdbcAccountRepository"/>
+	<bean id="transferRepository" class="com.packt.patterninspring.chapter3.bankapp.repository.jdbc.JdbcTransferRepository"/>
+	
+	<!-- more bean definitions go here -->
+	
+</beans>
