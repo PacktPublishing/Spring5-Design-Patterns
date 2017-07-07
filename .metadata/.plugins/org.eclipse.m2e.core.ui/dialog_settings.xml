@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\packt-book-workspace\Chapter-04-Spring-Factory-Bean"/>
 			<item value="D:\packt-book-workspace\Chapter-01-Spring-Introduction-and-Patterns"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -11,6 +24,19 @@
 			<item value="[groupId].[artifactId]"/>
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="Chapter-05-Spring-Life-Cycle-Callback"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Chapter-05-Spring-Life-Cycle-Callback"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
 </section>

@@ -1,0 +1,10 @@
+package com.packt.patterninspring.chapter5.bankapp.service;
+
+/**
+ * @author Dinesh Rajput
+ *
+ */
+@Service
+public class TransferService {
+
+}

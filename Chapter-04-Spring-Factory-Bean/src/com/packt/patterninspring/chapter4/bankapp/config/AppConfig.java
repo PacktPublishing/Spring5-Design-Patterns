@@ -12,7 +12,7 @@ import com.packt.patterninspring.chapter4.bankapp.service.TransferService;
  */
 @Configuration
 public class AppConfig {
-	
+	@Bean
 	public TransferService transferService() throws Exception{
 		return new TransferService(accountRepository().getObject());
 	}

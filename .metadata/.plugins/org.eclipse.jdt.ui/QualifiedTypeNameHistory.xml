@@ -39,7 +39,18 @@
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.proxy.pattern.ProxySavingAccount"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter3.bankapp.repository.jdbc.JdbcAccountRepository"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter3.bankapp.repository.jdbc.JdbcTransferRepository"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="org.springframework.context.ConfigurableApplicationContext"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter4.bankapp.service.TransferService"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.config.BeanPostProcessor"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter5.bankapp.config.AppConfig"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter5.bankapp.repository.AccountRepository"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter5.bankapp.repository.JdbcAccountRepository"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
 </qualifiedTypeNameHistroy>

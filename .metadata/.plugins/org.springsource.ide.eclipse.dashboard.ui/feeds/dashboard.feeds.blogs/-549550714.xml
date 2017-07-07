@@ -5,7 +5,280 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2017-06-29T10:34:00Z</updated>
+  <updated>2017-07-06T19:30:00Z</updated>
+  <entry>
+    <title>Spring Cloud Finchley M1 is available.</title>
+    <link rel="alternate" href="https://spring.io/blog/2017/07/06/spring-cloud-finchley-m1-is-available" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Spencer Gibb</name>
+    </author>
+    <id>tag:spring.io,2017-07-06:2965</id>
+    <updated>2017-07-06T19:30:00Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the community, I am pleased to announce that the Milestone 1 (M1) of the &lt;a href="https://cloud.spring.io"&gt;Spring Cloud Finchley&lt;/a&gt; Release Train is available today. The release can be found in &lt;a href="https://repo.spring.io/milestone/"&gt;Spring Milestone&lt;/a&gt; repository. You can check out the Finchley &lt;a href="https://github.com/spring-projects/spring-cloud/wiki/Spring-Cloud-Finchley-Release-Notes"&gt;release notes for more information&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;&lt;a href="#notable-changes-in-the-finchley-release-train" class="anchor" name="notable-changes-in-the-finchley-release-train"&gt;&lt;/a&gt;Notable Changes in the Finchley Release Train&lt;/h2&gt;
+&lt;p&gt;Finchley is based on the Spring Boot 2.0.0 line. Finchley.M1 is based on Spring Boot 2.0.0.M2. This is largely a compatibility build with no new features with the exception of Spring Cloud Gateway. Finchley will follow Spring Boot&amp;rsquo;s milestones and release candidates with a corresponding Finchley release soon after. General Availability is targeted for after Spring Boot 2.0 GA, likely in Dec. 2017.&lt;/p&gt;&lt;h3&gt;&lt;a href="#spring-cloud-gateway" class="anchor" name="spring-cloud-gateway"&gt;&lt;/a&gt;Spring Cloud Gateway&lt;/h3&gt;
+&lt;p&gt;Spring Cloud Gateway is a new API Gateway based on Spring 5, Boot 2 and Project Reactor. It is viewed as a replacement for Zuul 1. Some features include: &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fine grained route predicates such as: path, host and HTTP method&lt;/li&gt;
+  &lt;li&gt;Filters such as: path rewriting, adding headers and rate limiting&lt;/li&gt;
+  &lt;li&gt;A Management API&lt;/li&gt;
+  &lt;li&gt;A Route definition repository interface (for persisting route definitions).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Look for a future blog post that will further introduce Spring Cloud Gateway&lt;/p&gt;
+&lt;p&gt;The following modules were updated as part of Finchley.M1:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Module &lt;/th&gt;
+      &lt;th&gt;Version &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Sleuth &lt;/td&gt;
+      &lt;td&gt;2.0.0.M1 &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Cloudfoundry &lt;/td&gt;
+      &lt;td&gt;2.0.0.M1 &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Gateway &lt;/td&gt;
+      &lt;td&gt;2.0.0.M1 &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Build &lt;/td&gt;
+      &lt;td&gt;2.0.0.M1 &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Config &lt;/td&gt;
+      &lt;td&gt;2.0.0.M1 &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Consul &lt;/td&gt;
+      &lt;td&gt;2.0.0.M1 &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Dependencies &lt;/td&gt;
+      &lt;td&gt;2.0.0.M1 &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Netflix &lt;/td&gt;
+      &lt;td&gt;2.0.0.M1 &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Task &lt;/td&gt;
+      &lt;td&gt;1.2.0.RELEASE &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Boot Starter &lt;/td&gt;
+      &lt;td&gt;2.0.0.M2 &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Security &lt;/td&gt;
+      &lt;td&gt;2.0.0.M1 &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Bus &lt;/td&gt;
+      &lt;td&gt;2.0.0.M1 &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Contract &lt;/td&gt;
+      &lt;td&gt;2.0.0.M1 &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Aws &lt;/td&gt;
+      &lt;td&gt;2.0.0.M1 &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Stream &lt;/td&gt;
+      &lt;td&gt;Elmhurst.M1 &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Commons &lt;/td&gt;
+      &lt;td&gt;2.0.0.M1 &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Zookeeper &lt;/td&gt;
+      &lt;td&gt;2.0.0.M1 &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Boot &lt;/td&gt;
+      &lt;td&gt;2.0.0.M2 &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Vault &lt;/td&gt;
+      &lt;td&gt;2.0.0.M1 &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;And, as always, we welcome feedback: either on &lt;a href="https://github.com/spring-cloud/"&gt;GitHub&lt;/a&gt;, on &lt;a href="https://gitter.im/spring-cloud/spring-cloud"&gt;Gitter&lt;/a&gt;, on &lt;a href="http://stackoverflow.com/questions/tagged/spring-cloud"&gt;Stack Overflow&lt;/a&gt;, or on &lt;a href="https://twitter.com/SpringCloud"&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To get started with Maven with a BOM (dependency management only)&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint"&gt;&amp;lt;repositories&amp;gt;&#xD;
+    &amp;lt;repository&amp;gt;&#xD;
+        &amp;lt;id&amp;gt;spring-milestones&amp;lt;/id&amp;gt;&#xD;
+        &amp;lt;name&amp;gt;Spring Milestones&amp;lt;/name&amp;gt;&#xD;
+        &amp;lt;url&amp;gt;http://repo.spring.io/milestone&amp;lt;/url&amp;gt;&#xD;
+        &amp;lt;snapshots&amp;gt;&#xD;
+            &amp;lt;enabled&amp;gt;false&amp;lt;/enabled&amp;gt;&#xD;
+        &amp;lt;/snapshots&amp;gt;&#xD;
+    &amp;lt;/repository&amp;gt;&#xD;
+&amp;lt;/repositories&amp;gt;&#xD;
+&amp;lt;dependencyManagement&amp;gt;&#xD;
+    &amp;lt;dependencies&amp;gt;&#xD;
+        &amp;lt;dependency&amp;gt;&#xD;
+            &amp;lt;groupId&amp;gt;org.springframework.cloud&amp;lt;/groupId&amp;gt;&#xD;
+            &amp;lt;artifactId&amp;gt;spring-cloud-dependencies&amp;lt;/artifactId&amp;gt;&#xD;
+            &amp;lt;version&amp;gt;Finchley.M1&amp;lt;/version&amp;gt;&#xD;
+            &amp;lt;type&amp;gt;pom&amp;lt;/type&amp;gt;&#xD;
+            &amp;lt;scope&amp;gt;import&amp;lt;/scope&amp;gt;&#xD;
+        &amp;lt;/dependency&amp;gt;&#xD;
+    &amp;lt;/dependencies&amp;gt;&#xD;
+&amp;lt;/dependencyManagement&amp;gt;&#xD;
+&amp;lt;dependencies&amp;gt;&#xD;
+    &amp;lt;dependency&amp;gt;&#xD;
+        &amp;lt;groupId&amp;gt;org.springframework.cloud&amp;lt;/groupId&amp;gt;&#xD;
+        &amp;lt;artifactId&amp;gt;spring-cloud-starter-config&amp;lt;/artifactId&amp;gt;&#xD;
+    &amp;lt;/dependency&amp;gt;&#xD;
+    &amp;lt;dependency&amp;gt;&#xD;
+        &amp;lt;groupId&amp;gt;org.springframework.cloud&amp;lt;/groupId&amp;gt;&#xD;
+        &amp;lt;artifactId&amp;gt;spring-cloud-starter-eureka&amp;lt;/artifactId&amp;gt;&#xD;
+    &amp;lt;/dependency&amp;gt;&#xD;
+    ...&#xD;
+&amp;lt;/dependencies&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;or with Gradle:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint"&gt;buildscript {&#xD;
+    dependencies {&#xD;
+        classpath &amp;quot;io.spring.gradle:dependency-management-plugin:1.0.2.RELEASE&amp;quot;&#xD;
+    }&#xD;
+}&#xD;
+&#xD;
+repositories {&#xD;
+    maven {&#xD;
+        url &amp;#39;http://repo.spring.io/milestone&amp;#39;&#xD;
+    }&#xD;
+}&#xD;
+&#xD;
+apply plugin: &amp;quot;io.spring.dependency-management&amp;quot;&#xD;
+&#xD;
+dependencyManagement {&#xD;
+    imports {&#xD;
+        mavenBom &amp;#39;org.springframework.cloud:spring-cloud-dependencies:Finchley.M1&amp;#39;&#xD;
+    }&#xD;
+}&#xD;
+&#xD;
+dependencies {&#xD;
+    compile &amp;#39;org.springframework.cloud:spring-cloud-starter-config&amp;#39;&#xD;
+    compile &amp;#39;org.springframework.cloud:spring-cloud-starter-eureka&amp;#39;&#xD;
+    ...&#xD;
+}
+&lt;/code&gt;&lt;/pre&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring for Apache Hadoop 2.5.0 GA released</title>
+    <link rel="alternate" href="https://spring.io/blog/2017/07/06/spring-for-apache-hadoop-2-5-0-ga-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Thomas Risberg</name>
+    </author>
+    <id>tag:spring.io,2017-07-06:2966</id>
+    <updated>2017-07-06T19:23:27Z</updated>
+    <content type="html">&lt;p&gt;We are pleased to announce the Spring for Apache Hadoop 2.5.0 GA release.&lt;/p&gt;
+&lt;p&gt;The 2.5 version is primarily a bug fix and version upgrade release.&lt;/p&gt;
+&lt;p&gt;See the release &lt;a href="http://docs.spring.io/spring-hadoop/docs/2.5.0.RELEASE/changelog.txt"&gt;changelog&lt;/a&gt; for details.&lt;/p&gt;
+&lt;p&gt;We continue to provide version specific artifacts with their respective transitive dependencies in the Spring IO milestone repository:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;2.5.0.RC1 (default - Apache Hadoop stable 2.7.3)&lt;/li&gt;
+  &lt;li&gt;2.5.0.RC1-cdh5 (Cloudera CDH 5.10)&lt;/li&gt;
+  &lt;li&gt;2.5.0.RC1-hdp26 (Hortonworks HDP 2.6)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We discussed the future of the Spring for Apache Hadoop Project in the &lt;a href="https://spring.io/blog/2017/06/23/spring-for-apache-hadoop-2-5-0-rc1-released#spring-for-apache-hadoop-future"&gt;2.5.0 RC1 announcement&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Please provide feedback so we can prioritize the work on new features scheduled for 3.0. You can use JIRA issues or GitHub issues (see project page for links).&lt;/p&gt;
+&lt;p&gt;The project page is at - &lt;a href="http://projects.spring.io/spring-hadoop/"&gt;http://projects.spring.io/spring-hadoop/&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Introducing Spring Cloud Function</title>
+    <link rel="alternate" href="https://spring.io/blog/2017/07/05/introducing-spring-cloud-function" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Mark Fisher</name>
+    </author>
+    <id>tag:spring.io,2017-06-30:2963</id>
+    <updated>2017-07-05T15:17:00Z</updated>
+    <content type="html">&lt;p&gt;&lt;a href="https://github.com/spring-cloud/spring-cloud-function"&gt;Spring Cloud Function&lt;/a&gt; is a new project with the following high-level goals:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Promote the implementation of business logic via functions.&lt;/li&gt;
+  &lt;li&gt;Decouple the development lifecycle of business logic from any specific runtime target so that the same code can run as a web endpoint, a stream processor, or a task.&lt;/li&gt;
+  &lt;li&gt;Support a uniform programming model across serverless providers, as well as the ability to run standalone (locally or in a PaaS).&lt;/li&gt;
+  &lt;li&gt;Enable Spring Boot features (auto-configuration, dependency injection, metrics) on serverless providers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Just as Spring has always promoted a plain old java object (POJO) based programming model, Spring Cloud Function promotes a programming model based on plain old functions. By that we mean the core interfaces defined in the &lt;code&gt;java.util.function&lt;/code&gt; package: &lt;code&gt;Function&lt;/code&gt;, &lt;code&gt;Consumer&lt;/code&gt;, and &lt;code&gt;Supplier&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Implementations of those types can be registered as beans either explicitly or implicitly via classpath scanning enabled by &lt;code&gt;@FunctionScan&lt;/code&gt;. The parameter and/or return types can optionally use Reactor’s &lt;code&gt;Flux&lt;/code&gt;, which is a Reactive Streams &lt;code&gt;Publisher&lt;/code&gt;. That enables interoperability with other Reactive Streams components, even those that are based on other implementations, such as RxJava 2, and it brings reactive features such as non-blocking IO and back-pressure to this processing model (for more information see &lt;a href="http://projectreactor.io"&gt;Project Reactor&lt;/a&gt;). Whenever the parameter and/or return types are not &lt;code&gt;Flux&lt;/code&gt;, Spring Cloud Function wraps them so that functions can interoperate via &lt;code&gt;Flux&lt;/code&gt;. For simple item-at-a-time processing use-cases, you can keep it simple:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint"&gt;public class Greeter implements Function&amp;lt;String, String&amp;gt; {&#xD;
+  public String apply(String name) {&#xD;
+    return &amp;quot;Hello &amp;quot; + name;&#xD;
+  }&#xD;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;But if you need to implement functions that handle a dataset as the unit of processing, via windowing or reduce operations, you can use &lt;code&gt;Flux&lt;/code&gt; types:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint"&gt;public static class WordCount&#xD;
+    implements Function&amp;lt;Flux&amp;lt;String&amp;gt;, Flux&amp;lt;Map&amp;lt;String, Integer&amp;gt;&amp;gt;&amp;gt; {&#xD;
+  public Flux&amp;lt;Map&amp;lt;String, Integer&amp;gt;&amp;gt; apply(Flux&amp;lt;String&amp;gt; phrases) {&#xD;
+    return phrases.window(3)&#xD;
+      .flatMap(f -&amp;gt; f.flatMap(phrase -&amp;gt; Flux.fromArray(phrase.split(&amp;quot;\\W&amp;quot;)))&#xD;
+      .reduce(new HashMap&amp;lt;String, Integer&amp;gt;(),&#xD;
+        (map, word) -&amp;gt; { map.merge(word, 1, Integer::sum); return map; }));&#xD;
+  }&#xD;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Relying on function types also makes it easy to compose functionality, such as:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint"&gt;twistAndShout = twist.andThen(shout);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Of course, functions can also be defined using lambdas, such as:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint"&gt;Function&amp;lt;String, String&amp;gt; shout =  s -&amp;gt; s.toUpperCase() + “!”;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In fact Spring Cloud Function has support for compiling String based lambdas into function instances dynamically. This can be especially useful when prototyping or adding some trivial transformation logic, as the Spring Expression Language is commonly used today.&lt;/p&gt;
+&lt;p&gt;You may be asking why it’s necessary for Spring to promote this model, since you can easily create &lt;code&gt;Function&lt;/code&gt;, &lt;code&gt;Consumer&lt;/code&gt;, and &lt;code&gt;Supplier&lt;/code&gt; instances anyways. It shouldn’t be much of a surprise to learn that the answer involves Inversion of Control. Over the years, everything from basic dependency injection to Spring’s ubiquitous use of the template pattern have been described by the Hollywood Principle: “don’t call us, we’ll call you”. The &lt;code&gt;Flux&lt;/code&gt;-adapting mentioned above is actually an example of Inversion of Control, but an even more important one is the decoupling of business logic from deployment profile. The business logic in this case refers to functions, while the deployment profile could be a REST app, stream processing app, or finite task. Spring Cloud Function provides a JAR for each of those types, and in each case an auto-configured &lt;a href="https://github.com/spring-cloud/spring-cloud-function/blob/master/spring-cloud-function-core/src/main/java/org/springframework/cloud/function/registry/FunctionCatalog.java"&gt;FunctionCatalog&lt;/a&gt; is used to locate the &lt;code&gt;Functions&lt;/code&gt;, &lt;code&gt;Consumers&lt;/code&gt;, and &lt;code&gt;Suppliers&lt;/code&gt; within the &lt;code&gt;ApplicationContext&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;For example to deploy the &lt;code&gt;Greeter&lt;/code&gt; function shown above as a REST endpoint only requires adding the “spring-cloud-function-web” dependency, as can be seen in this &lt;a href="https://github.com/markfisher/spring-cloud-function-blog-samples/blob/master/greeter/pom.xml"&gt;POM&lt;/a&gt;. That also includes the Spring Boot Maven plugin so that the build produces an executable JAR:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint"&gt;./mvnw clean install&#xD;
+java -jar greeter/target/greeter-0.0.1-SNAPSHOT.jar
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;That can then be invoked using curl:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint"&gt;$ curl -H &amp;quot;Content-Type: text/plain&amp;quot; :8080/greeter -d World&#xD;
+Hello World
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Likewise, to deploy a function as a stream-processor, only requires adding the “spring-cloud-function-stream” dependency that in turn builds upon Spring Cloud Stream. Just as Spring Cloud Stream provides a &lt;a href="http://docs.spring.io/spring-cloud-stream/docs/current/reference/htmlsingle/#_binders"&gt;Binder abstraction&lt;/a&gt; that eliminates the need to define Channel Adapters, Spring Cloud Function eliminates the need to declare components like Service Activators, Transformers, or even the &lt;code&gt;@StreamListener&lt;/code&gt;-annotated methods to which Spring Cloud Stream delegates. The “spring-cloud-function-stream” JAR itself provides all of that. It’s yet another case of taking Inversion of Control to another level.&lt;/p&gt;
+&lt;p&gt;In part 2 of this blog series, we will provide examples of how &lt;code&gt;Suppliers&lt;/code&gt;, &lt;code&gt;Functions&lt;/code&gt;, and &lt;code&gt;Consumers&lt;/code&gt; can be used within the next version of Spring Cloud Data Flow. The basic idea is that whenever you need to provide some custom logic, you could just implement simple functions. It’s the perfect example of an opinionated model where not only should you not need to provide the boilerplate, but it’s better for the framework to handle it anyways. For example, you would be able to register just functions - either inline or packaged as JARs (instead of Spring Cloud Stream apps) and then refer to those in the DSL while relying on Spring Cloud Data Flow to wrap them for you:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;mySupplier | myFunction | myConsumer&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The deployment profiles even extend into the realm of Serverless (a.k.a. Functions-as-a-Service) providers, such as AWS Lambda and Apache OpenWhisk (as well as Azure Functions and Google Cloud Functions once they provide support for Java). In part 3 of this blog series, we will dive into more details on that topic, but for now you can peruse the docs for the &lt;a href="https://github.com/spring-cloud/spring-cloud-function/tree/master/spring-cloud-function-adapters/spring-cloud-function-adapter-aws"&gt;AWS Lambda adapter&lt;/a&gt; and the &lt;a href="https://github.com/spring-cloud/spring-cloud-function/tree/master/spring-cloud-function-adapters/spring-cloud-function-adapter-openwhisk"&gt;Apache OpenWhisk adapter&lt;/a&gt;. The upcoming blog will also cover integration with Kubernetes-based Serverless frameworks such as &lt;a href="http://fission.io"&gt;Fission&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Beyond the role of decoupling business logic and infrastructure, the various deployment profile JARs and FaaS adapters promote portability. A developer can implement a function in complete isolation, including unit tests that only concern themselves with the input and output parameters. That function can then be packaged with the dependency that allows it to run in the target environment, ranging from a standalone REST app to Spring Cloud Data Flow or a FaaS provider.&lt;/p&gt;
+&lt;p&gt;That brings us to the final point of this introductory blog. The term “Serverless” generates a lot of backlash, and is almost always followed by the explanation: “of course there are still servers, but you don’t have to think about them.” So while we’ll resist introducing the term “Frameworkless”, the same concept can indeed apply to the framework. In the Spring Cloud Data Flow example above, the function developer doesn’t need to think about the framework, and doesn’t even need to produce artifacts that have any framework code in their dependencies. The same idea would apply to the FaaS adapters. We’re basically pushing Inversion of Control to the point where we can twist the Hollywood Principle into: “don’t depend on us, we’ll depend on you”. That might not go over well in Hollywood, but for developers it means you can just write a function, package it in a JAR, and register it for use with the various endpoints or adapters. As always Spring is following the principle stated eloquently by Alan Kay: “Simple things should be simple. Complex things should be possible.” In upcoming blog posts, we’ll dive into some of the more complex things that are possible thanks to Spring Cloud Function, but we’ll never lose sight of keeping simple things simple.&lt;/p&gt;
+&lt;p&gt;Stay tuned!&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>This Week in Spring - July 4th, 2017</title>
+    <link rel="alternate" href="https://spring.io/blog/2017/07/05/this-week-in-spring-july-4th-2017" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2017-07-04:2964</id>
+    <updated>2017-07-05T00:01:01Z</updated>
+    <content type="html">&lt;p&gt;Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! If you&amp;rsquo;re in the US, then let me wish you a happy 4th of July! We&amp;rsquo;ve got a lot to cover so let&amp;rsquo;s get to it!&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spring Data ninja Thomas Risberg has just &lt;a href="https://spring.io/blog/2017/06/29/spring-cloud-data-flow-1-2-2-released"&gt;announced Spring Cloud Data Flow 1.2.2&lt;/a&gt;. This new version improves compatibility with Spring Boot 1.5.4 which in turn brought in a new version of Spring Data.&lt;/li&gt;
+  &lt;li&gt;The &lt;a href="https://springframework.guru/what-is-new-with-spring-framework-5/"&gt;&lt;em&gt;Spring Framework Guru&lt;/em&gt; web portal&lt;/a&gt; has an interesting look at what&amp;rsquo;s new in Spring Framework 5! Check it out!&lt;/li&gt;
+  &lt;li&gt;I liked this post on &lt;em&gt;Bozho&amp;rsquo;s Tech Blog&lt;/em&gt; on setting up the epic &lt;a href="https://techblog.bozho.net/simple-spring-boot-admin-setup/"&gt;Spring Boot Admin&lt;/a&gt; for monolithic applications, eschewing some of the more common, albeit more complex, setups.&lt;/li&gt;
+  &lt;li&gt;our friend Petri Kainulainen is back at it again &lt;a href="https://www.petrikainulainen.net/weekly/java-testing-weekly-27-2017/"&gt;this time with a new newsletter&lt;/a&gt; that looks to capture discussions of testing in Java. This seems like a no-brainer thing to follow for interesting content! Nice job, as usual, Petri!&lt;/li&gt;
+  &lt;li&gt;I love &lt;a href="https://firstinthecloud.com/spring-boot-101"&gt;this nicely illustrated look at what constitutes a Spring bean&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.baeldung.com/spring-cloud-tutorial"&gt;Baeldung has a nice Spring Cloud tutorial&lt;/a&gt; that&amp;rsquo;s worth checking out.&lt;/li&gt;
+  &lt;li&gt;I was very honored to be nominated as one of the &lt;a href="https://jaxlondon.com/blog/java-core-languages/top-20-java-influencers-of-2017/"&gt;top java influencers by JAX 2017&lt;/a&gt; along with Spring Data lead Oliver Gierke. This is an honor. Thank you. :)&lt;/li&gt;
+  &lt;li&gt;don&amp;rsquo;t miss reactive web ninja Arjen Poutsma&amp;rsquo;s &lt;a href="https://content.pivotal.io/webinars/jun-14-new-in-spring-framework-5-0-functional-web-framework-webinar"&gt;talk introducing functional reactive Spring&lt;/a&gt;!&lt;/li&gt;
+  &lt;li&gt;Speaking of &lt;em&gt;reactive&lt;/em&gt;, this upcoming webinar on &lt;a href="https://content.pivotal.io/spring/jul-13-full-stack-reactive-nosql-spring-data-and-couchbase-webinar"&gt;reactive Spring Data Couchbase looks promising!&lt;/a&gt; - check it out!&lt;/li&gt;
+  &lt;li&gt;I liked this &lt;a href="https://github.com/orlandovald/webflux-twitter-demo"&gt;demo of a (reactive) Spring WebFlux application&lt;/a&gt; that connects to Twitter&amp;rsquo;s streaming API&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Spring Cloud Data Flow 1.2.2 Released</title>
     <link rel="alternate" href="https://spring.io/blog/2017/06/29/spring-cloud-data-flow-1-2-2-released" />
@@ -61,7 +334,6 @@
     <updated>2017-06-23T12:38:00Z</updated>
     <content type="html">&lt;h2&gt;&lt;a href="#new-release-candidate-for-spring-for-apache-hadoop-2-5" class="anchor" name="new-release-candidate-for-spring-for-apache-hadoop-2-5"&gt;&lt;/a&gt;New release candidate for Spring for Apache Hadoop 2.5&lt;/h2&gt;
 &lt;p&gt;We are pleased to announce the Spring for Apache Hadoop 2.5 release candidate release.&lt;/p&gt;
-&lt;p&gt;We continue to provide version specific artifacts with their respective transitive dependencies in the Spring IO milestone repository:&lt;/p&gt;
 &lt;p&gt;The 2.5 version is primarily a bug fix and version upgrade release.&lt;/p&gt;
 &lt;p&gt;See the release &lt;a href="http://docs.spring.io/spring-hadoop/docs/2.5.0.RC1/changelog.txt"&gt;changelog&lt;/a&gt; for details.&lt;/p&gt;
 &lt;p&gt;We continue to provide version specific artifacts with their respective transitive dependencies in the Spring IO milestone repository:&lt;/p&gt;
@@ -1304,127 +1576,5 @@ mockRest
 &lt;p&gt;We are ramping down with a second release candidate of Spring Framework 5 next week and we will follow as expected with a second milestone of Spring Boot 2. If you want to try what we have for Spring Boot 2 already, and we’d love to hear your feedback if you do, please go to &lt;a href="https://start.spring.io"&gt;start.spring.io&lt;/a&gt; and select Spring Boot &lt;code&gt;2.0.0.BUILD-SNAPSHOT&lt;/code&gt;.&lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
 &lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask at &lt;a href="http://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="http://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://projects.spring.io/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/1.5.4.RELEASE/reference/htmlsingle"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Integration 4.3.10 is Available</title>
-    <link rel="alternate" href="https://spring.io/blog/2017/06/08/spring-integration-4-3-10-is-available" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Artem Bilan</name>
-    </author>
-    <id>tag:spring.io,2017-06-08:2947</id>
-    <updated>2017-06-08T14:25:02Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;On behalf of the Spring Integration team, I am pleased to announce that the &lt;a href="https://jira.spring.io/jira/secure/ReleaseNote.jspa?projectId=10121&amp;amp;version=16061"&gt;4.3.10.RELEASE&lt;/a&gt; of Spring Integration is now available.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;This release contains a few important bug fixes as well as a couple of improvements.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;One of the most interesting feature is customized Jackson &lt;code&gt;ObjectMapper&lt;/code&gt; which is aware of &lt;code&gt;Message&lt;/code&gt; and &lt;code&gt;MessageHeaders&lt;/code&gt; serialization/deserialization to/from JSON.
-This functionality is useful in those components which allow to configure custom serializer/deserializer, for example &lt;code&gt;RedisMessageStore&lt;/code&gt;:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-java" data-lang="java"&gt;RedisMessageStore store = new RedisMessageStore(redisConnectionFactory);
-
-ObjectMapper mapper = JacksonJsonUtils.messagingAwareMapper();
-
-GenericJackson2JsonRedisSerializer serializer =
-                             new GenericJackson2JsonRedisSerializer(mapper);
-store.setValueSerializer(serializer);&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;And messages and message groups will be stored in Redis in the JSON format.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;This version will be the default version with the upcoming Spring Boot &lt;code&gt;1.4.7&lt;/code&gt; and &lt;code&gt;1.5.4&lt;/code&gt; releases.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Also this version with its new &lt;a href="https://jira.spring.io/browse/INT-4257"&gt;ErrorMessagePublisher&lt;/a&gt; foundation is important for error handling functionality in the upcoming &lt;a href="http://cloud.spring.io/spring-cloud-stream/"&gt;Spring Cloud Stream&lt;/a&gt; &lt;code&gt;Ditmars&lt;/code&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="http://projects.spring.io/spring-integration/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://jira.spring.io/browse/INT"&gt;JIRA&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-integration/blob/master/CONTRIBUTING.md"&gt;Contributions&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-integration"&gt;Help&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-integration"&gt;Chat&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring AMQP 1.6.10 and 1.7.3 Available</title>
-    <link rel="alternate" href="https://spring.io/blog/2017/06/08/spring-amqp-1-6-10-and-1-7-3-available" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Artem Bilan</name>
-    </author>
-    <id>tag:spring.io,2017-06-08:2946</id>
-    <updated>2017-06-08T14:02:47Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;We are pleased to announce that these maintenance releases of Spring AMQP are now available, &lt;a href="https://jira.spring.io/jira/secure/ReleaseNote.jspa?projectId=10450&amp;amp;version=16112"&gt;1.6.10.RELEASE&lt;/a&gt; and &lt;a href="https://jira.spring.io/jira/secure/ReleaseNote.jspa?projectId=10450&amp;amp;version=16113"&gt;1.7.3.RELEASE&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;These versions include several bug fixes and improvements.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Both these versions are included in upcoming Spring Boot &lt;code&gt;1.4.7&lt;/code&gt; and &lt;code&gt;1.5.4&lt;/code&gt;, respectively.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="http://projects.spring.io/spring-amqp/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-amqp"&gt;GitHub&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-amqp"&gt;Help&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-amqp/reference/html/"&gt;Documentation&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-amqp"&gt;Chat&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring For Apache Kafka 1.2.2 and 1.1.6 Available</title>
-    <link rel="alternate" href="https://spring.io/blog/2017/06/08/spring-for-apache-kafka-1-2-2-and-1-1-6-available" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Artem Bilan</name>
-    </author>
-    <id>tag:spring.io,2017-06-08:2945</id>
-    <updated>2017-06-08T13:55:09Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;We are pleased to announce that these maintenance releases of Spring for Apache Kafka are now available, 1.2.2.RELEASE and 1.1.6.RELEASE.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;These versions include several bug fixes and improvements.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;They are functionally equivalent; the 1.2.2.RELEASE is based on the 0.10.2.0 &lt;code&gt;kafka-clients&lt;/code&gt; jar and 1.1.6.RELEASE can be used with 0.10.0.x and 0.10.1.x.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="http://projects.spring.io/spring-kafka/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-kafka/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-kafka/blob/master/CONTRIBUTING.adoc"&gt;Contributing&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-kafka"&gt;Help&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-kafka"&gt;Chat&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <title>CVE-2017-4995: Spring Security 4.2.3 Released</title>
-    <link rel="alternate" href="https://spring.io/blog/2017/06/08/cve-2017-4995-spring-security-4-2-3-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Rob Winch</name>
-    </author>
-    <id>tag:spring.io,2017-06-08:2941</id>
-    <updated>2017-06-08T13:23:00Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;On behalf of the community, I&amp;#8217;m pleased to announce the release of Spring Security 4.2.3 which fixes &lt;a href="https://pivotal.io/security/cve-2017-4995"&gt;CVE-2017-4995&lt;/a&gt;. Users are encouraged to update immediately.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;For additional changes included in this, refer to the &lt;a href="https://github.com/spring-projects/spring-security/issues?q=is%3Aclosed+milestone%3A4.2.3"&gt;changelog&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="admonitionblock note"&gt;
-&lt;table&gt;
-&lt;tr&gt;
-&lt;td class="icon"&gt;
-&lt;div class="title"&gt;Note&lt;/div&gt;
-&lt;/td&gt;
-&lt;td class="content"&gt;
-Spring Boot users can update to &lt;a href="https://spring.io/blog/2017/06/08/spring-boot-1-5-4-available-now"&gt;Spring Boot 1.5.4&lt;/a&gt; or &lt;a href="http://docs.spring.io/spring-boot/docs/1.5.4.RELEASE/reference/htmlsingle/#howto-customize-dependency-versions"&gt;customize the Spring Security version&lt;/a&gt; using &lt;code&gt;spring-security.version&lt;/code&gt;.
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="http://projects.spring.io/spring-security/"&gt;Project Site&lt;/a&gt; |
-&lt;a href="http://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/"&gt;Reference&lt;/a&gt;
-|
-&lt;a href="http://docs.spring.io/spring-security/site/docs/current/guides/html5/"&gt;Guides&lt;/a&gt;
-| &lt;a href="http://stackoverflow.com/questions/tagged/spring-security"&gt;Help&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</content>
   </entry>
 </feed>
