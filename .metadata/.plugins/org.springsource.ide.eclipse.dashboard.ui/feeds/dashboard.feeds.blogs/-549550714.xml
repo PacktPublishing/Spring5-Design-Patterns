@@ -5,7 +5,81 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2017-07-06T19:30:00Z</updated>
+  <updated>2017-07-14T19:00:36Z</updated>
+  <entry>
+    <title>Spring Security OAuth 2.2.0.RC1 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2017/07/14/spring-security-oauth-2-2-0-rc1-released" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Joe Grandja</name>
+    </author>
+    <id>tag:spring.io,2017-07-14:2969</id>
+    <updated>2017-07-14T19:00:36Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;On behalf of the community, I&amp;#8217;m pleased to announce the release of Spring Security OAuth 2.2.0.RC1.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The &lt;a href="https://github.com/spring-projects/spring-security-oauth/milestone/27?closed=1"&gt;2.2.0.RC1 release&lt;/a&gt; includes numerous improvements to the JSON Web Key (JWK) feature contained in &lt;code&gt;JwkTokenStore&lt;/code&gt; along with the addition of &lt;code&gt;JwtClaimsSetVerifier&lt;/code&gt; that provides the capability of custom JWT Claim(s) verification. See the  &lt;a href="https://github.com/spring-projects/spring-security-oauth/issues/1111"&gt;GitHub Issue&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;This release also includes a small number of bug fixes and minor enhancements.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;a href="http://projects.spring.io/spring-security-oauth/"&gt;Project Page&lt;/a&gt; |
+&lt;a href="https://github.com/spring-projects/spring-security-oauth/"&gt;GitHub&lt;/a&gt; |
+&lt;a href="http://projects.spring.io/spring-security-oauth/docs/Home.html"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-security-oauth2"&gt;Help&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>This Week in Spring - July 11th, 2017</title>
+    <link rel="alternate" href="https://spring.io/blog/2017/07/11/this-week-in-spring-july-11th-2017" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2017-07-11:2968</id>
+    <updated>2017-07-11T06:53:54Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! This week I&amp;rsquo;m in Minneapolis, Minnesota; Kansas City, Kansas; and Phoenix, Arizona talking to customers and Pivotal partners about all things Spring and Cloud Foundry. If you&amp;rsquo;re around don&amp;rsquo;t hesitate &lt;a href="http://twitter.com/starbuxman"&gt;to say hi&lt;/a&gt;! &lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ve got a lot to cover this week, so let&amp;rsquo;s get started!&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Mark Fisher debuted the first look at &lt;a href="https://spring.io/blog/2017/07/05/introducing-spring-cloud-function"&gt;Spring Cloud Function&lt;/a&gt;, an abstraction that brings the function-as-a-service paradigm to your Spring applications. This is a &lt;em&gt;must-read&lt;/em&gt;!&lt;/li&gt;
+  &lt;li&gt;Spring (big-)Data ninja Thomas Risberg just &lt;a href="https://spring.io/blog/2017/07/06/spring-for-apache-hadoop-2-5-0-ga-released"&gt;announced Spring for Apache Hadoop 2.5.0 GA&lt;/a&gt; which mostly includes bugfixes and dependency updates.&lt;/li&gt;
+  &lt;li&gt;Spring Cloud co-founder just announced &lt;a href="https://spring.io/blog/2017/07/06/spring-cloud-finchley-m1-is-available"&gt;the first milestone of Spring Cloud Finchley&lt;/a&gt;. This release is the first to be based on the upcoming Spring Boot 2.0 baseline with one major new feature: a new microproxy called Spring Cloud Gateway which we see as a replacement for Zuul 1.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/07/10/spring-tool-suite-3-9-0-released"&gt;Spring Tool Suite 3.9.0 released&lt;/a&gt; - Spring Tool Suite lead Martin Lippert just announced Spring Tool Suite 3.9.0 which in turn builds upon Eclipse Oxygen. It also includes improved Spring Cloud integration and support for editing Cloud Foundry manifests.&lt;/li&gt;
+  &lt;li&gt;this post looks at using the &lt;a href="http://howtodoinjava.com/spring/spring-boot/spring-boot-jmstemplate-activemq/"&gt;Spring Framework &lt;code&gt;JmsTemplate&lt;/code&gt;&lt;/a&gt; with an embedded ActiveMQ instance.&lt;/li&gt;
+  &lt;li&gt;most people don&amp;rsquo;t realize that Spring integrates a very powerful Aspect-oriented programming library called AspectJ. This &lt;a href="https://dzone.com/articles/aspect-oriented-programming-with-springboot"&gt;post introduces AspectJ in terms of a Spring Boot application&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Jane Elizabeth has a nice writeup &lt;a href="https://jaxenter.com/spring-cloud-function-serverless-135439.html"&gt;of Spring Cloud Function&lt;/a&gt; over on JAXEnter&lt;/li&gt;
+  &lt;li&gt;Oracle have announced as massive-online-only-course &lt;a href="https://twitter.com/java/status/883691253262499840"&gt;on developing REST applications with Spring Boot&lt;/a&gt;. Sounds interesting!&lt;/li&gt;
+  &lt;li&gt;Check out Spring Data lead Oliver Gierke&amp;rsquo;s JAX talk &lt;a href="https://jaxenter.de/ddd-rest-45713"&gt;on domain-driven design vs. REST&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;this looks interesting - it&amp;rsquo;s a &lt;a href="https://github.com/creactiviti/piper"&gt;miniature workflow engine - called Piper&lt;/a&gt; - built on top of Spring Boot. Nice work Arik!&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Tool Suite 3.9.0 released</title>
+    <link rel="alternate" href="https://spring.io/blog/2017/07/10/spring-tool-suite-3-9-0-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Martin Lippert</name>
+    </author>
+    <id>tag:spring.io,2017-07-10:2967</id>
+    <updated>2017-07-10T07:58:59Z</updated>
+    <content type="html">&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;I am happy to announce the 3.9.0 release of the Spring Tool Suite, our Eclipse-based tooling.&lt;/p&gt;
+&lt;p&gt;Highlights from this release include:&lt;/p&gt;
+&lt;ul&gt;&#xD;
+&lt;li&gt;updated to Eclipse Oxygen release (&lt;a href="https://www.eclipse.org/oxygen/noteworthy/"&gt;Oxygen New and Noteworthy&lt;/a&gt;)&lt;/li&gt;&#xD;
+&lt;li&gt;improved support for editing cloud foundry manifest files&lt;/li&gt;&#xD;
+&lt;li&gt;improved support for using Spring Cloud CLI services (incl. log streaming to console view)&lt;/li&gt;&#xD;
+&lt;/ul&gt;
+&lt;p&gt;To download the distributions, please go visit:&lt;/p&gt;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Spring Tool Suite: &lt;a href="https://spring.io/tools/sts/all"&gt;https://spring.io/tools/sts/all&lt;/a&gt;&lt;/li&gt;&#xD;
+&lt;/ul&gt;
+&lt;p&gt;Detailed new and noteworthy notes can be found here: &lt;a href="http://docs.spring.io/sts/nan/v390/NewAndNoteworthy.html"&gt;STS 3.9.0 New &amp;amp; Noteworthy&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;There is also an early access version of JDT available that includes support for Java9. You can&lt;br/&gt;install that from the Eclipse Marketplace. More details can be found in the&lt;br/&gt;&lt;a href="https://www.eclipse.org/oxygen/noteworthy/#jdt-java-java9"&gt;Java9 section of the Eclipse Oxygen New and Noteworthy&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;STS 3.9.1 is scheduled to be released on top of Eclipse Oxygen.1 (4.7.1) in early October 2017.&lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Spring Cloud Finchley M1 is available.</title>
     <link rel="alternate" href="https://spring.io/blog/2017/07/06/spring-cloud-finchley-m1-is-available" />
@@ -1519,62 +1593,5 @@ mockRest
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Here&amp;rsquo;s the link to &lt;a href="https://spring.io/blog/2017/06/20/a-preview-on-spring-data-kay"&gt;the preview on Spring Data Kay&lt;/a&gt;.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Framework 5.0 RC2 available now</title>
-    <link rel="alternate" href="https://spring.io/blog/2017/06/14/spring-framework-5-0-rc2-available-now" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Juergen Hoeller</name>
-    </author>
-    <id>tag:spring.io,2017-06-14:2949</id>
-    <updated>2017-06-14T10:19:00Z</updated>
-    <content type="html">&lt;p&gt;Dear Spring community,&lt;/p&gt;
-&lt;p&gt;It is my pleasure to announce that our second Spring Framework 5.0 release candidate is &lt;a href="http://projects.spring.io/spring-framework/"&gt;available&lt;/a&gt; now. This is a major revision of RC1, with refactorings in our new reactive facilities and in our new path pattern parser, as well as code style refinements all over the framework.&lt;/p&gt;
-&lt;p&gt;This release introduces a formal non-null API declaration for all of our packages, with explicitly nullable arguments and return values annotated as such now (instead of just javadoc&amp;rsquo;ed). Our nullability annotations are compliant with JSR 305 and specifically supported by IntelliJ IDEA and upcoming versions of Kotlin, with the potential to deliver particularly strong benefits for Kotlin users (which is why we&amp;rsquo;ve rolled them into 5.0 still). Note that we apply stronger null enforcement in some Spring APIs now, superseding our previously lenient null handling.&lt;/p&gt;
-&lt;p&gt;Please give RC2 a try and let us know how it goes! Next up is an RC3 in July, shortly before we go GA, so there is still an opportunity for further refinements based on your feedback. Beyond a few remaining loose ends in the codebase, we are also going to pick up the final releases of Reactor 3.1 and Jackson 2.9 and wrap up our compatibility story with Servlet 4.0 and JPA 2.2.&lt;/p&gt;
-&lt;p&gt;Cheers,&lt;br/&gt;Juergen&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring - June 13th, 2017</title>
-    <link rel="alternate" href="https://spring.io/blog/2017/06/13/this-week-in-spring-june-13th-2017" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2017-06-13:2948</id>
-    <updated>2017-06-13T14:24:00Z</updated>
-    <content type="html">&lt;p&gt;Hi Spring fans! This week I&amp;rsquo;m in Redmond, hanging out with our friends and Pivotal partner Microsoft talking about Cloud Foundry on Microsoft Azure. As you may know, Microsoft&amp;rsquo;s Azure IaaS platform is the #2 most widely used cloud and it&amp;rsquo;s growing! It&amp;rsquo;s got more datacenters than the other two cloud vendors in more regions (including in Germany and China!) and a &lt;em&gt;huge&lt;/em&gt; raft of services that support both Windows and Linux operating systems. There&amp;rsquo;s so much exciting stuff coming up including Azure Stack, which runs Azure on-premise, and the amazing integration between Azure and PCF. I&amp;rsquo;m looking forward to hearing even more about Microsoft Azure this week at CF Summit in Santa Clara, which is where I&amp;rsquo;ll be on Wednesday and then it&amp;rsquo;s off to Utah for the &lt;a href="http://ujug.org/"&gt;Utah JUG&lt;/a&gt;. Come out, join me, and say &lt;a href="http://twitter.com/starbuxman"&gt;hi&lt;/a&gt;!&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;the Baeldung has a nice look at &lt;a href="http://www.baeldung.com/spring-boot-start"&gt;starting an application with Spring Boot&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;there&amp;rsquo;s some amazingly cool stuff happening on Microsoft Azure and it works particularly well with Spring and Pivotal Cloud Foundry. &lt;a href="https://content.pivotal.io/white-papers/introducing-cloud-native-java-with-microsoft-azure"&gt;Learn more here&lt;/a&gt; with that free whitepaper.&lt;/li&gt;
-  &lt;li&gt;Spring 5 has a lot of major features and a lot of smaller, but very convenient, features. One of them is the newly introduced support for the &lt;code&gt;@Nullable&lt;/code&gt; annotation which feeds into your &lt;a href="https://github.com/spring-projects/spring-framework/commit/f813712f5b413b354560cd7cc006352e9defa9a3"&gt;compiler and IDE feedback for method invocations&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;the Auth0 blog has a nice post on &lt;a href="https://auth0.com/blog/horizontal-scaling-jsf-applications-with-spring-session/"&gt;scaling JSF applications using Spring Session&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;community legend &lt;a href="https://twitter.com/rotnroll666/status/873113244780568576"&gt;Michael Simons makes a great point in this tweet&lt;/a&gt;: if you want to understand what Spring Data repositories are all about, check out Eric Evans&amp;rsquo; Domain Driven Design book!&lt;/li&gt;
-  &lt;li&gt;Spring Boot legend &lt;a href="https://spring.io/blog/2017/06/08/spring-boot-1-5-4-available-now"&gt;Stéphane Nicoll has just announced Spring Boot 1.5.4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Integration ninja Artem Bilan has &lt;a href="https://spring.io/blog/2017/06/08/spring-integration-4-3-10-is-available"&gt;just announced Spring Integration 4.3.10&lt;/a&gt; which includes improvements in JSON serialization, improved error handling, and more&lt;/li&gt;
-  &lt;li&gt;not one to rest on his laurels, &lt;a href="https://spring.io/blog/2017/06/08/spring-amqp-1-6-10-and-1-7-3-available"&gt;Artem also announced Spring AMQP 1.6.10 and 1.7.3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Artem &lt;em&gt;also&lt;/em&gt; announced &lt;a href="https://spring.io/blog/2017/06/08/spring-for-apache-kafka-1-2-2-and-1-1-6-available"&gt;Spring for Apache Kafka 1.2.2 and 1.1.6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Security lead Rob Winch just announced a fix for &lt;a href="https://spring.io/blog/2017/06/08/cve-2017-4995-spring-security-4-2-3-released"&gt;CVE-2017-4995&lt;/a&gt; - update immediately!&lt;/li&gt;
-  &lt;li&gt;Spring Data ninja Mark Paluch just &lt;a href="https://spring.io/blog/2017/06/08/spring-data-ingalls-sr4-and-hopper-sr11-released"&gt;announced Spring Data Ingalls SR4 and Hopper SR11&lt;/a&gt; - packed with new features and updated releases!&lt;/li&gt;
-  &lt;li&gt;Stéphane Nicoll &lt;em&gt;also&lt;/em&gt; &lt;a href="https://spring.io/blog/2017/06/07/spring-framework-4-3-9-available-now"&gt;announced Spring Framework 4.3.9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Marcin Grzejszczak just &lt;a href="https://spring.io/blog/2017/06/07/spring-cloud-pipelines-1-0-0-m5-released"&gt;announced Spring Cloud Pipelines 1.0.0.M5&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Boot 1.5.4 Available Now</title>
-    <link rel="alternate" href="https://spring.io/blog/2017/06/08/spring-boot-1-5-4-available-now" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Stéphane Nicoll</name>
-    </author>
-    <id>tag:spring.io,2017-06-08:2944</id>
-    <updated>2017-06-08T15:04:08Z</updated>
-    <content type="html">&lt;p&gt;On behalf of the team, I am pleased to announce that Spring Boot &lt;code&gt;1.5.4&lt;/code&gt; has been released and is available now from &lt;a href="http://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and &lt;a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.springframework.boot%22"&gt;Maven Central&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;Spring Boot 1.5.4 adds &lt;a href="https://github.com/spring-projects/spring-boot/milestone/86?closed=1"&gt;over 60 fixes, improvements and 3rd party dependency updates&lt;/a&gt; to the 30 issues &lt;a href="https://spring.io/blog/2017/06/08/spring-boot-1-4-7-available-now"&gt;fixed in Spring Boot 1.4.7&lt;/a&gt;. Thanks to all that have contributed!&lt;/p&gt;
-&lt;p&gt;This release is a recommended upgrade for all users, in a particular due to &lt;a href="https://spring.io/blog/2017/06/08/cve-2017-4995-spring-security-4-2-3-released"&gt;CVE-2017-4995&lt;/a&gt; that was recently fixed in Spring Security 4.2.3.&lt;/p&gt;&lt;h3&gt;&lt;a href="#what-rsquo-s-next" class="anchor" name="what-rsquo-s-next"&gt;&lt;/a&gt;What&amp;rsquo;s next?&lt;/h3&gt;
-&lt;p&gt;We are ramping down with a second release candidate of Spring Framework 5 next week and we will follow as expected with a second milestone of Spring Boot 2. If you want to try what we have for Spring Boot 2 already, and we’d love to hear your feedback if you do, please go to &lt;a href="https://start.spring.io"&gt;start.spring.io&lt;/a&gt; and select Spring Boot &lt;code&gt;2.0.0.BUILD-SNAPSHOT&lt;/code&gt;.&lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
-&lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask at &lt;a href="http://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="http://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://projects.spring.io/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/1.5.4.RELEASE/reference/htmlsingle"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

@@ -3,4 +3,5 @@
 <aop-project name="Chapter-04-Spring-Factory-Bean"/>
 <aop-project name="Chapter-01-Spring-Introduction-and-Patterns"/>
 <aop-project name="Chapter-03-Spring-Dependency-Injection"/>
+<aop-project name="Chapter-05-Custom-Bean-Scope"/>
 </aop-reference-model>

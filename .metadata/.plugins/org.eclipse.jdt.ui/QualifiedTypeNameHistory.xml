@@ -51,6 +51,7 @@
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter5.bankapp.config.AppConfig"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter5.bankapp.repository.AccountRepository"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter5.bankapp.repository.JdbcAccountRepository"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
 <fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
 </qualifiedTypeNameHistroy>
