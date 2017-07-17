@@ -1,0 +1,34 @@
+package com.packt.patterninspring.chapter6.bankapp.aspect;
+
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+@Aspect
+public class Auditing {
+	
+	/**
+	 * Declaring before advice 
+	 * @param jp
+	 * @throws Throwable
+	 */
+	@Before("execution(* com.packt.patterninspring.chapter6.bankapp.service.TransferService.transfer(..))") 
+	public void beforeAdviceForAllMethods() throws Throwable {
+        System.out.println("****LoggingAspect.beforeAdviceForAllMethods() ");
+    }
+	
+	/**
+	 * Declaring before advice for all transfer methods whose taking three arguments of any type 
+	 * of all classes in the package com.doj.aopapp.service
+	 * @param jp
+	 * @throws Throwable
+	 */
+	@Before("execution(* com.doj.aopapp.service.*.transfer(*,*,*))")
+	public void beforeAdviceForTransferMethods(JoinPoint jp) throws Throwable {
+        System.out.println("****LoggingAspect.beforeAdviceForTransferMethods() " + jp.getSignature().getName());
+    }
+}

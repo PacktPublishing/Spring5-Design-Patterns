@@ -1,0 +1,25 @@
+package com.packt.patterninspring.chapter6.bankapp.aspect;
+
+import org.aspectj.lang.annotation.AfterReturning;
+import org.aspectj.lang.annotation.AfterThrowing;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class Auditing {
+	public void validate(){
+        System.out.println("bank validate your credentials before amount transferring");
+    }
+	public void transferInstantiate(){
+        System.out.println("bank instantiate your amount transferring");
+    }
+	public void success(){
+        System.out.println("bank successfully transferred amount");
+    }
+	public void rollback() {
+        System.out.println("bank rolled back your transferred amount");
+    }
+}

@@ -1,0 +1,24 @@
+package com.packt.patterninspring.chapter6.bankapp;
+
+import org.springframework.context.ConfigurableApplicationContext;
+
+import com.packt.patterninspring.chapter6.bankapp.config.AppConfig;
+import com.packt.patterninspring.chapter6.bankapp.service.TransferService;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class LoggingAspectDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		ConfigurableApplicationContext applicationContext = new ClassPathXMLApplicationContext("spring.xml");
+		TransferService transferService = applicationContext.getBean(TransferService.class);
+		transferService.transfer("accountA", "accountB", 50000l);
+		applicationContext.close();
+	}
+
+}
