@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package com.packt.patterninspring.chapter7.bankapp;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class SpringJdbcDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
