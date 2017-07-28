@@ -1,0 +1,16 @@
+package com.packt.patterninspring.chapter7.bankapp.dao;
+
+import com.packt.patterninspring.chapter7.bankapp.model.Account;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class AccountDaoImpl implements AccountDao {
+
+	@Override
+	public Account findAccountById(Long id) {
+		return null;
+	}
+
+}

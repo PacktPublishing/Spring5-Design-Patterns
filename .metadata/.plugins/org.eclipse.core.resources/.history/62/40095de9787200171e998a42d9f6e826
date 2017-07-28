@@ -1,0 +1,22 @@
+package com.packt.patterninspring.chapter7.bankapp.callbacks;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.springframework.dao.DataAccessException;
+import org.springframework.jdbc.core.ResultSetExtractor;
+
+import com.packt.patterninspring.chapter7.bankapp.model.Account;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class AccountExtractor implements ResultSetExtractor<List<Account>> {
+
+	@Override
+	public Account extractData(ResultSet resultSet) throws SQLException, DataAccessException {
+		return null;
+	}
+
+}

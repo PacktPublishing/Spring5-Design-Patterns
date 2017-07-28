@@ -1,20 +1,25 @@
 package com.packt.patterninspring.chapter7.bankapp.repository;
 
+import java.io.Writer;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
+
 import javax.sql.DataSource;
 
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
+import com.packt.patterninspring.chapter7.bankapp.callbacks.AccountExtractor;
+import com.packt.patterninspring.chapter7.bankapp.callbacks.AccountReportWriter;
 import com.packt.patterninspring.chapter7.bankapp.model.Account;
-import com.packt.patterninspring.chapter7.bankapp.rowmapper.AccountRowMapper;
 
 /**
  * @author Dinesh.Rajput
  *
  */
 @Repository
-//@Order(1)
-//@Primary
 public class JdbcAccountRepository implements AccountRepository{
 	
 	JdbcTemplate jdbcTemplate;
@@ -24,9 +29,7 @@ public class JdbcAccountRepository implements AccountRepository{
 		this.jdbcTemplate = new JdbcTemplate(dataSource);
 	}
 
-
-
-	/*@Override
+	@Override
 	public Account findAccountById(Long id){
 		String sql = "SELECT * FROM Account WHERE id = "+id;
 		return jdbcTemplate.queryForObject(sql, new RowMapper<Account>(){
@@ -38,11 +41,23 @@ public class JdbcAccountRepository implements AccountRepository{
 				return account;
 			}
 		});
-	}*/
-	
+	}
+
 	@Override
+	public void generateReport(Writer out, String city) {
+		String sql = "SELECT * FROM Account WHERE city = "+city;
+		jdbcTemplate.query(sql, new AccountReportWriter());
+	}
+
+	@Override
+	public List<Account> extractAccounts() {
+		String sql = "SELECT * FROM Account";
+		return jdbcTemplate.query(sql, new AccountExtractor());
+	}
+	
+	/*@Override
 	public Account findAccountById(Long id){
 		String sql = "SELECT * FROM Account WHERE id = "+id;
 		return jdbcTemplate.queryForObject(sql, new AccountRowMapper());
-	}
+	}*/
 }

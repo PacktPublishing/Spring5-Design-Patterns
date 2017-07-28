@@ -1,0 +1,20 @@
+package com.packt.patterninspring.chapter7.bankapp.dao;
+
+import org.springframework.jdbc.core.support.JdbcDaoSupport;
+
+import com.packt.patterninspring.chapter7.bankapp.callbacks.AccountRowMapper;
+import com.packt.patterninspring.chapter7.bankapp.model.Account;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class AccountDaoImpl extends JdbcDaoSupport implements AccountDao {
+
+	@Override
+	public Account totalAccountsByBranch(String branchName) {
+		String sql = "SELECT count(*) FROM Account WHERE branchName = "+branchName;
+		return this.getJdbcTemplate().queryForObject(sql, new AccountRowMapper());
+	}
+
+}

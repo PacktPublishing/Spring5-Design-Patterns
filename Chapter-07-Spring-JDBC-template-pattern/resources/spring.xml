@@ -7,10 +7,11 @@
 		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
- 	<context:component-scan base-package="com.doj.springapp.config"/> 
- 	<!-- import tag use for importing another xml files configurations -->
- 	<!-- <import resource="app.xml"/>
- 	<import resource="app2.xml"/> -->
+ 	<context:component-scan base-package="com.packt.patterninspring.chapter7.bankapp"/> 
+ 
+ 	<jdbc:embedded-database id="dataSource" type="H2">
+ 		<jdbc:script location="schema.sql"/>
+ 		<jdbc:script location="data.sql"/>
+ 	</jdbc:embedded-database>
  	
- 	<!-- <bean class="com.doj.springapp.config.AppConfig"/> -->
 </beans>

@@ -30,12 +30,14 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="Chapter-07-Spring-JDBC-template-pattern"/>
 			<item value="Chapter-05-Custom-Bean-Scope"/>
 			<item value="Chapter-05-Spring-Life-Cycle-Callback"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Chapter-07-Spring-JDBC-template-pattern"/>
 			<item value="Chapter-05-Custom-Bean-Scope"/>
 			<item value="Chapter-05-Spring-Life-Cycle-Callback"/>
 		</list>

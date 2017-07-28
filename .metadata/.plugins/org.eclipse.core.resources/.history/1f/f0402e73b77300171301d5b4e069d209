@@ -1,0 +1,18 @@
+package com.packt.patterninspring.chapter7.bankapp.dao;
+
+import org.springframework.jdbc.core.support.JdbcDaoSupport;
+
+import com.packt.patterninspring.chapter7.bankapp.model.Account;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class AccountDaoImpl extends JdbcDaoSupport implements AccountDao {
+
+	@Override
+	public Account findAccountById(Long id) {
+		return null;
+	}
+
+}

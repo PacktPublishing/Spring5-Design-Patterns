@@ -1,0 +1,45 @@
+package com.packt.patterninspring.chapter7.bankapp;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.sql.DataSource;
+
+import org.springframework.jdbc.datasource.DataSourceUtils;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class SpringJdbcDemo {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	public List findByLastName(String lastName) {
+		List personList = new ArrayList();
+		Connection conn = null;
+		String sql = "select first_name, age from PERSON where last_name=?";
+		try {
+			DataSource dataSource = DataSourceUtils.getDataSource();
+			conn = dataSource.getConnection();
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setString(1, lastName);
+			ResultSet rs = ps.executeQuery();
+			while (rs.next()) {
+				personList.add(new Person(rs.getString("first_name"), ...));
+			}
+			} catch (SQLException e) { /* ??? */ }
+			finally {
+				try {
+					conn.close();
+				} catch (SQLException e) { /* ??? */ }
+			}
+			return personList;
+	}
+}
