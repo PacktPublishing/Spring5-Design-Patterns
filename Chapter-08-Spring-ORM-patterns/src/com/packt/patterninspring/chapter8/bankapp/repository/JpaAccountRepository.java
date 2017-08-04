@@ -24,4 +24,9 @@ public class JpaAccountRepository implements AccountRepository {
 		return null;
 	}
 
+	@Override
+	public Double checkAccountBalance(Account account) {
+		return null;
+	}
+
 }

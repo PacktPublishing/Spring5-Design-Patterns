@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.factory.Account"/>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.factory.CurrentAccount"/>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.factory.SavingAccount"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.factory.pattern.AccountFactory"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.model.ICICIBank"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.model.YesBank"/>
@@ -60,4 +57,7 @@
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter7.bankapp.model.Account"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.support.JdbcDaoSupport"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter7.bankapp.callbacks.AccountRowMapper"/>
+<fullyQualifiedTypeName name="org.springframework.orm.hibernate5.LocalSessionFactoryBean"/>
 </qualifiedTypeNameHistroy>

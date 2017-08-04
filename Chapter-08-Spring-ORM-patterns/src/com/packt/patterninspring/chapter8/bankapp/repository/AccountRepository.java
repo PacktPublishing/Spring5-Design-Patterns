@@ -18,4 +18,6 @@ public interface AccountRepository {
 	List<Account> findAll();
 	
 	Long save(Account account);
+	
+	Double checkAccountBalance(Account account);
 }

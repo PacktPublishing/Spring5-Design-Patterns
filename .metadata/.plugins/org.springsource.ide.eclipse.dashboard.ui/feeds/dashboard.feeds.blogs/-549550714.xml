@@ -5,7 +5,237 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2017-07-28T16:14:38Z</updated>
+  <updated>2017-08-01T20:44:00Z</updated>
+  <entry>
+    <title>This Week in Spring - August 1st, 2017</title>
+    <link rel="alternate" href="https://spring.io/blog/2017/08/01/this-week-in-spring-august-1st-2017" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2017-08-01:2995</id>
+    <updated>2017-08-01T20:44:00Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! This week I&amp;rsquo;m &lt;a href="https://www.meetup.com/nashvillejug/events/237237449/"&gt;in Nashville, TN, for a meetup presentation&lt;/a&gt; on Reactive Spring and then it&amp;rsquo;s off to &lt;a href="https://www.meetup.com/kc-spring/events/237043686/"&gt;Kansas City, KS&lt;/a&gt; for a replay of the same talk. Both times I&amp;rsquo;ll be joined by pal Mark Heckler. If you&amp;rsquo;re in either of those cities, don&amp;rsquo;t miss this! &lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m working on the next installments of Spring Tips: what would you like to see covered? Let me &lt;a href="http://twitter.com/SpringTipsLive"&gt;know on Twitter on @SpringTipsLive&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This week we have a truly massive good many things to look at so let&amp;rsquo;s get started!&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spring messaging and integration maestro Artem Bilan just announced &lt;a href="https://spring.io/blog/2017/07/24/spring-for-apache-kafka-2-0-milestone-3-available"&gt;Spring for Apache Kafka 2.0 M3&lt;/a&gt;. The new release includes, among other things, a new &lt;code&gt;KafkaTransactionManager&lt;/code&gt; and according supportin the &lt;code&gt;KakfaTemplate&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/07/25/spring-session-2-0-m3-released"&gt;Spring Session 2.0 M3 Released&lt;/a&gt; - Spring Security and Session ninja Joe Grandja just announced Spring Session 2.0.M3. This new release adds support for Spring WebFlux, and its &lt;code&gt;WebSession&lt;/code&gt; and reactive programming in general.&lt;/li&gt;
+  &lt;li&gt;Not one to rest on his laurels, Christoph Strobl &lt;a href="https://spring.io/blog/2017/07/25/spring-data-release-train-kay-rc1-rc2-released"&gt;also announced the new release of Spring Data Kay RC1 and RC2&lt;/a&gt;. These releases include Spring Data for Apache Geode, reactive tuning, a Cassandra v3.0 driver upgrade and so much more, including 120+ tickets fixed!&lt;/li&gt;
+  &lt;li&gt;Christoph Strobl just announced just announced a &lt;a href="https://spring.io/blog/2017/07/25/spring-data-ingalls-sr5-released"&gt;massive Spring Data Ingalls SR5&lt;/a&gt; release with over 40 issues fixed.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/07/25/spring-integration-5-0-milestone-6-available"&gt;Spring Integration 5.0 Milestone 6 Available&lt;/a&gt; - Spring Integration ninja Artem Bilan just announced Spring Integration 5.0M6. This release includes support for the reactive HTTP channel adapter, convenient integration with Spring Cloud Function, a new JDBC metadata store, and so much more.&lt;/li&gt;
+  &lt;li&gt;Spring Data ninja Thomas Risberg announced the &lt;a href="https://spring.io/blog/2017/07/26/spring-cloud-data-flow-1-2-3-released"&gt;Spring Cloud Data Flow 1.2.3&lt;/a&gt; maintenance release which include, among other things, an OSS-licensed SQL Server JDBC driver and improved reference documentation.&lt;/li&gt;
+  &lt;li&gt;Spring Boot and Cloud Foundry ninja Madhura Bhave just announced &lt;a href="https://spring.io/blog/2017/07/26/spring-boot-2-0-0-m3-available-now"&gt;Spring Boot 2.0.0.M3&lt;/a&gt; which pulls in Spring Framework 5RC3 and closes over 100 tickets! Get the bits now!&lt;/li&gt;
+  &lt;li&gt;Spring Batch lead &lt;a href="https://spring.io/blog/2017/07/26/spring-batch-4-0-0-m3-is-now-available"&gt;Michael Minella has just announced Spring Batch 4.0.0.M3&lt;/a&gt;. This new release further improves the Java Configuration builders for various &lt;code&gt;ItemReader&lt;/code&gt; and &lt;code&gt;ItemWriter&lt;/code&gt;s. It also end-of-lifes the Spring Batch Admin. You should use Spring Cloud Data Flow, instead.&lt;/li&gt;
+  &lt;li&gt;Hurray! &lt;a href="https://spring.io/blog/2017/07/27/spring-session-data-geode-gemfire-2-0-0-m1-now-available"&gt;Spring Session Data Geode 2.0.0.M1&lt;/a&gt; is now available. This is a Spring Session integration that builds upon Spring Data Geode (which also supports Pivotal&amp;rsquo;s Gemfire product). Spring Data Geode’s &lt;code&gt;@ClientCacheApplication&lt;/code&gt; and Spring Session Data Geode’s &lt;code&gt;@EnableGemFireHttpSession&lt;/code&gt; annotations turn your Spring Boot application into a Geode cache client capable of managing the HTTP Session state by distributing data to a cluster of Geode servers for fast and reliable (replicated) access. Nice work to Spring Data legend John Blum and team! This is such a cool release.&lt;/li&gt;
+  &lt;li&gt;Spring Vault lead &lt;a href="https://spring.io/blog/2017/07/27/spring-vault-1-1-0-m1-and-2-0-0-m2-available"&gt;Mark Paluch&amp;rsquo;s announced Spring Vault 1.1.0.M1 and 2.0.0.M2&lt;/a&gt;. Both new releases include AWS IAM Vault login, rotation of generic secrets based on their lease duration, and an introduction of &lt;code&gt;VaultEndpointProvider&lt;/code&gt; to configure endpoints dynamically. Additionally, 2.0.0.M2 includes an authentication DSL, reactive Spring Framework 5 integration, and enhanced nullability support.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/07/27/spring-boot-1-5-6-available-now"&gt;Spring Boot 1.5.6 available now&lt;/a&gt; - There was a small issue in the &lt;a href="https://spring.io/blog/2017/07/26/spring-boot-1-5-5-available-now"&gt;Spring Boot 1.5.5&lt;/a&gt; release, so get 1.5.6, instead.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/07/27/spring-session-mongodb-2-0-0-m2-released"&gt;Spring Session MongoDB 2.0.0.M2 released&lt;/a&gt; - Spring legend Greg Turnquist just announced Spring Sessions MongoDB 2.0.0.M2. This new release brings in new dependencies and integrates with Spring Framework 5&amp;rsquo;s reactive support.&lt;/li&gt;
+  &lt;li&gt;Spring Security OAuth ninja Joe Grandja &lt;a href="https://spring.io/blog/2017/07/28/spring-security-oauth-2-2-released"&gt;just announced Spring Security OAuth 2.2.0.RELEASE&lt;/a&gt;. This is a packed release, so congratulations to the Spring Security team on a job well done!&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2017/08/01/spring-framework-5-kotlin-apis-the-functional-way"&gt;Spring Framework 5 Kotlin APIs, the functional way&lt;/a&gt; - Sébastien Deleuze looks at a number of the nice improvements in Spring Framework 5&amp;rsquo;s native support for the Kotlin-language. There&amp;rsquo;s so much to love here! Some of the efforts - like a focus on nullability checks - also bleed through and improve the lives of Java developers using Spring, as well.&lt;/li&gt;
+  &lt;li&gt;While we recommend Spring Cloud Data Flow for anybody who wants to manage and interrogate Spring Batch jobs, you can still use Spring Batch Admin and you can even &lt;a href="https://github.com/jkuipers/boot-batchadmin"&gt;run it in a Spring Boot environment, as this sample from Joris Kuipers demonstrates&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;ADTMag has a &lt;a href="https://adtmag.com/articles/2017/07/26/spring-release-candidate.aspx"&gt;nice look at the recent Spring Framework 5.0RC3&lt;/a&gt; release.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://code.hootsuite.com/dawn-of-the-age-of-kotlin-at-hootsuite/"&gt;Dawn of the Age of Kotlin at Hootsuite – Code @ Hootsuite&lt;/a&gt; - Hootsuite talks about their use of the Kotlin language. In this post they look at their motivations and the issues they&amp;rsquo;ve encountered when using it for Android development.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://content.pivotal.io/cloud-foundry-summit-2017-2/what-does-it-take-to-run-cloud-foundry-at-enterprise-scale"&gt;Verizon&amp;rsquo;s Josh Stone&lt;/a&gt; talks about the experience of running Cloud Foundry at scale&lt;/li&gt;
+  &lt;li&gt;my friend &lt;a href="https://twitter.com/resouer/status/891909789747367936"&gt;Harry Zhang points&lt;/a&gt; out that the Container Storage Interface will be a very promising project in that it involves participants from &lt;a href="https://github.com/container-storage-interface/spec/blob/master/OWNERS"&gt;Cloud Foundry, Kubernetes, Mesos, and Docker&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Coding Dojo has apparently dropped their Ruby on Rails bootcamp, due to waning interest, &lt;a href="https://flipboard.com/@flipboard/-ruby-on-rails-is-out-major-coding-bootc/f-e61f983902%2Fthenextweb.com"&gt;and are now running a Spring workshop, instead&lt;/a&gt;. I&amp;rsquo;ve, personally, seen this effect a lot in recent years. I think that this says two things: a) Ruby on Rails has been an amazing boon for the industry b) Spring must be doing something right if people are opting to use it instead of Ruby on Rails! Why don&amp;rsquo;t &lt;a href="http://start.spring.io"&gt;you try it for yourself&lt;/a&gt;?&lt;/li&gt;
+  &lt;li&gt;Codecentric&amp;rsquo;s Johannes Edmeier shares the &lt;a href="https://twitter.com/joshiste/status/891660694826995712"&gt;good news that there have been more than six million downloads of the Codecentric Spring Boot Admin&lt;/a&gt; Server! This is very promising news! &lt;a href="https://spring.io/blog/2016/12/07/spring-tips-bootiful-dashboards"&gt;Learn more here about various dashboard options for your Spring Boot-based applications&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.slideshare.net/makingx/why-pcf-is-the-best-platform-for-spring-boot"&gt;Why PCF is the best platform for Spring Boot&lt;/a&gt; - Pivotal&amp;rsquo;s own Toshiaki Maki has put together an awesome look at why Cloud Foundry, and specifically &lt;a href="https://www.slideshare.net/makingx/why-pcf-is-the-best-platform-for-spring-boot"&gt;Pivotal&amp;rsquo;s Cloud Foundry, is the best experience for developers using Spring&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Michael Kops has a nice post &lt;a href="https://semaphoreci.com/community/tutorials/testing-a-java-spring-boot-rest-api-with-karate"&gt;on testing Spring Boot-based REST APIs with Karate&lt;/a&gt;, a web testing framework.&lt;/li&gt;
+  &lt;li&gt;Charity Majors has a great post, &lt;a href="https://opensource.com/article/17/7/state-systems-administration"&gt;&amp;ldquo;Ops: It&amp;rsquo;s Everyone&amp;rsquo;s Job Now!&amp;rdquo;&lt;/a&gt; which urges software developers to embrace operations-minded thinking. This is critical if we&amp;rsquo;re to, as a community, move to higher order systems and deliverables.&lt;/li&gt;
+  &lt;li&gt;Dan Vega has a nice post &lt;a href="http://therealdanvega.com/blog/2017/07/03/multiple-request-mappings-spring-boot"&gt;on configuring multiple HTTP request mappings for Spring MVC endpoints&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;The Grails project lead, Graeme Rocher, &lt;a href="http://grailsblog.objectcomputing.com/posts/2017/07/26/grails-3.3-ga-released.html"&gt;just announced Grails 3.3.GA&lt;/a&gt;. Check it out!&lt;/li&gt;
+  &lt;li&gt;Want a full-featured example Spring Cloud application? You might like this &lt;a href="https://github.com/MrBW/resilient-transport-service"&gt;resilient demo by Benjamin Wilms&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Rod Johnson, creator of Spring, look at his company Atomist&amp;rsquo;s technology &lt;a href="https://the-composition.com/no-more-copy-paste-bf6c7f96e445"&gt;for automating and drastically simplifying project initialization&lt;/a&gt;. Atomist looks at more than just code-generation and focuses on infrastructure like cloud-platform integration, lifecycle, repositories, Slack integration, etc.&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Framework 5 Kotlin APIs, the functional way</title>
+    <link rel="alternate" href="https://spring.io/blog/2017/08/01/spring-framework-5-kotlin-apis-the-functional-way" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Sébastien Deleuze</name>
+    </author>
+    <id>tag:spring.io,2017-07-28:2993</id>
+    <updated>2017-08-01T12:12:00Z</updated>
+    <content type="html">&lt;p&gt;Since our original announcement (very well received by the community!) of &lt;a href="https://spring.io/blog/2017/01/04/introducing-kotlin-support-in-spring-framework-5-0"&gt;official Kotlin support in Spring Framework 5&lt;/a&gt;, we have continued to work towards even stronger Kotlin support in conjunction with recent refinements in Spring WebFlux.&lt;/p&gt;
+&lt;p&gt;In order to demonstrate these features, and how they could be used together, I have created a new &lt;a href="https://github.com/sdeleuze/spring-kotlin-functional"&gt; &lt;code&gt;spring-kotlin-functional&lt;/code&gt;&lt;/a&gt; demo application which is a standalone Spring WebFlux application, developed in Kotlin, with Mustache template rendering, JSON REST webservices and Server-Sent Events streaming capabilities. Don&amp;rsquo;t hesitate to send us feedbacks and proposals before Spring Framework 5 release expected in September.&lt;/p&gt;&lt;h2&gt;&lt;a href="#programmatic-bootstrap" class="anchor" name="programmatic-bootstrap"&gt;&lt;/a&gt;Programmatic bootstrap&lt;/h2&gt;
+&lt;p&gt;Spring WebFlux and Reactor Netty allow for programmatic bootstrap of the application since they are natively designed to run as an embedded webserver. This is obviously not needed when developing a Spring Boot application but can be very useful for tight deployment units with custom bootstrapping in a microservice architecture or other constrained environments.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint kotlin"&gt;class Application {&#xD;
+	&#xD;
+  private val httpHandler: HttpHandler&#xD;
+  private val server: HttpServer&#xD;
+  private var nettyContext: BlockingNettyContext? = null&#xD;
+  &#xD;
+  constructor(port: Int = 8080) {&#xD;
+    val context = GenericApplicationContext()&#xD;
+    beans().invoke(context)&#xD;
+    context.refresh()&#xD;
+    server = HttpServer.create(port)&#xD;
+    httpHandler = WebHttpHandlerBuilder.applicationContext(context).build()&#xD;
+  }&#xD;
+&#xD;
+  fun start() {&#xD;
+    nettyContext = server.start(ReactorHttpHandlerAdapter(httpHandler))&#xD;
+  }&#xD;
+	&#xD;
+  fun startAndAwait() {&#xD;
+    server.startAndAwait(ReactorHttpHandlerAdapter(httpHandler),&#xD;
+        { nettyContext = it })&#xD;
+  }&#xD;
+	&#xD;
+  fun stop() {&#xD;
+    nettyContext?.shutdown()&#xD;
+  }&#xD;
+}&#xD;
+&#xD;
+fun main(args: Array&amp;lt;String&amp;gt;) {&#xD;
+  Application().startAndAwait()&#xD;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;&lt;a href="#functional-bean-definitions-with-spring-rsquo-s-new-kotlin-dsl" class="anchor" name="functional-bean-definitions-with-spring-rsquo-s-new-kotlin-dsl"&gt;&lt;/a&gt;Functional bean definitions with Spring&amp;rsquo;s new Kotlin DSL&lt;/h2&gt;
+&lt;p&gt;Spring Framework 5 introduces a new way of registering beans using lambdas. It is very efficient, does not require any reflection or CGLIB proxies (so &lt;a href="https://kotlinlang.org/docs/reference/compiler-plugins.html#kotlin-spring-compiler-plugin"&gt;&lt;code&gt;kotlin-spring&lt;/code&gt;&lt;/a&gt; plugin is not needed for Reactive apps), and is a good fit with languages like Java 8 or Kotlin. You can have an overview of Java versus Kotlin syntax &lt;a href="https://spring.io/blog/2017/01/04/introducing-kotlin-support-in-spring-framework-5-0#functional-bean-declaration-dsl"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In &lt;a href="https://github.com/sdeleuze/spring-kotlin-functional"&gt; &lt;code&gt;spring-kotlin-functional&lt;/code&gt;&lt;/a&gt;, beans are declared in a &lt;code&gt;Beans.kt&lt;/code&gt; file which contains bean definitions. The DSL conceptually declare a &lt;code&gt;Consumer&amp;lt;GenericApplicationContext&amp;gt;&lt;/code&gt; via a clean declarative API which allows you to deal with profile and &lt;code&gt;Environment&lt;/code&gt; for customizing how your beans are registered. This DSL also allows custom registration logic of beans via &lt;code&gt;if&lt;/code&gt; expression, &lt;code&gt;for&lt;/code&gt; loop or any other Kotlin constructs.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint kotlin"&gt;beans {&#xD;
+  bean&amp;lt;UserHandler&amp;gt;()&#xD;
+  bean {&#xD;
+    Routes(ref(), ref())&#xD;
+  }&#xD;
+  bean&amp;lt;WebHandler&amp;gt;(&amp;quot;webHandler&amp;quot;) {&#xD;
+    RouterFunctions.toWebHandler(&#xD;
+      ref&amp;lt;Routes&amp;gt;().router(),&#xD;
+      HandlerStrategies.builder().viewResolver(ref()).build()&#xD;
+    )&#xD;
+  }&#xD;
+  bean(&amp;quot;messageSource&amp;quot;) {&#xD;
+    ReloadableResourceBundleMessageSource().apply {&#xD;
+      setBasename(&amp;quot;messages&amp;quot;)&#xD;
+      setDefaultEncoding(&amp;quot;UTF-8&amp;quot;)&#xD;
+    }&#xD;
+  }&#xD;
+  bean {&#xD;
+    val prefix = &amp;quot;classpath:/templates/&amp;quot;&#xD;
+    val suffix = &amp;quot;.mustache&amp;quot;&#xD;
+    val loader = MustacheResourceTemplateLoader(prefix, suffix)&#xD;
+    MustacheViewResolver(Mustache.compiler().withLoader(loader)).apply {&#xD;
+      setPrefix(prefix)&#xD;
+      setSuffix(suffix)&#xD;
+    }&#xD;
+  }&#xD;
+  profile(&amp;quot;foo&amp;quot;) {&#xD;
+    bean&amp;lt;Foo&amp;gt;()&#xD;
+  }&#xD;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;Routes(ref(), ref())&lt;/code&gt; is the equivalent of &lt;code&gt;Routes(ref&amp;lt;UserHandler&amp;gt;(), ref&amp;lt;MessageSource&amp;gt;())&lt;/code&gt; (types are not required thanks to Kotlin type inference) where &lt;code&gt;ref&amp;lt;UserHandler&amp;gt;()&lt;/code&gt; is a shortcut for &lt;code&gt;applicationContext.getBean(UserHandler::class.java)&lt;/code&gt;. We may provide an alternative syntax for autowiring classes by constructor which is pretty common in Koltin.&lt;/p&gt;&lt;h2&gt;&lt;a href="#null-safety-of-spring-and-reactor-apis" class="anchor" name="null-safety-of-spring-and-reactor-apis"&gt;&lt;/a&gt;Null-safety of Spring and Reactor APIs&lt;/h2&gt;
+&lt;p&gt;One of Kotlin&amp;rsquo;s key features is &lt;a href="https://kotlinlang.org/docs/reference/null-safety.html"&gt;null-safety&lt;/a&gt; which allows to deal with &lt;code&gt;null&lt;/code&gt; values at compile time rather than bumping into the famous &lt;code&gt;NullPointerException&lt;/code&gt; at runtime. This makes your applications safer through clean nullability declarations, expressing &amp;ldquo;value or no value&amp;rdquo; semantics without paying the cost of wrapper like &lt;code&gt;Optional&lt;/code&gt;. (Kotlin allows using functional constructs with nullable values; check out this &lt;a href="http://www.baeldung.com/kotlin-null-safety"&gt;comprehensive guide to Kotlin null-safety&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;Although Java does not allow to express null-safety in its type-system, we have introduced some amount of &lt;a href="https://jira.spring.io/browse/SPR-15540"&gt;null-safety to Spring APIs&lt;/a&gt; via tooling-friendly annotations: &lt;code&gt;@NonNullApi&lt;/code&gt; annotations at package level declare that non-null is the default behavior, and we explicitly put &lt;code&gt;@Nullable&lt;/code&gt; annotations where specific parameters or return values can be &lt;code&gt;null&lt;/code&gt;. We have done this work for the whole Spring Framework API (yes it was a huge effort!), and other projects like &lt;a href="https://jira.spring.io/browse/DATACMNS-1114"&gt;Spring Data&lt;/a&gt; begin to leverage it. Spring annotation are meta-annotated with JSR 305 meta-annotation (a dormant JSR but supported by tools like IDEA, Eclipse, Findbugs, etc.) to provide useful warnings to Java developers.&lt;/p&gt;
+&lt;p&gt;On the Kotlin side, the killer feature is that - as of the upcoming Kotlin 1.1.4 release - these annotations &lt;a href="https://youtrack.jetbrains.com/issue/KT-10942"&gt;are recognized by Kotlin&lt;/a&gt; in order to provide null-safety for the whole Spring API. That means you should never have &lt;code&gt;NullPointerException&lt;/code&gt; in your code when using Spring 5 and Kotlin because the compiler will not allow it. For now, you need to use a &lt;code&gt;-Xjsr305-annotations=enable&lt;/code&gt; flag but that will became the default behavior in an upcoming release of Kotlin.&lt;/p&gt;
+&lt;p&gt;Make sure to &lt;a href="https://github.com/sdeleuze/spring-kotlin-functional/blob/2d6ac07adfc2b8f25e91681dbb2b58a1c6cdf9a7/build.gradle.kts#L57"&gt;include JSR-305 JAR&lt;/a&gt; until &lt;a href="https://youtrack.jetbrains.com/issue/KT-19419"&gt;KT-19419&lt;/a&gt; is fixed, and be aware that &lt;a href="https://youtrack.jetbrains.com/issue/KT-19303"&gt;KT-19303&lt;/a&gt; need to be fixed in order to get null-safety taken in account in IDEA.&lt;/p&gt;&lt;h2&gt;&lt;a href="#functional-routing-with-the-kotlin-dsl-for-spring-webflux" class="anchor" name="functional-routing-with-the-kotlin-dsl-for-spring-webflux"&gt;&lt;/a&gt;Functional routing with the Kotlin DSL for Spring WebFlux&lt;/h2&gt;
+&lt;p&gt;Instead of using &lt;code&gt;@RestController&lt;/code&gt; and &lt;code&gt;@RequestMapping&lt;/code&gt;, &lt;code&gt;spring-kotlin-functional&lt;/code&gt; is using the WebFlux functional API via a dedicated Kotlin DSL.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint"&gt;router {&#xD;
+  accept(TEXT_HTML).nest {&#xD;
+    GET(&amp;quot;/&amp;quot;) { ok().render(&amp;quot;index&amp;quot;) }&#xD;
+    GET(&amp;quot;/sse&amp;quot;) { ok().render(&amp;quot;sse&amp;quot;) }&#xD;
+    GET(&amp;quot;/users&amp;quot;, userHandler::findAllView)&#xD;
+  }&#xD;
+  &amp;quot;/api&amp;quot;.nest {&#xD;
+    accept(APPLICATION_JSON).nest {&#xD;
+      GET(&amp;quot;/users&amp;quot;, userHandler::findAll)&#xD;
+    }&#xD;
+    accept(TEXT_EVENT_STREAM).nest {&#xD;
+      GET(&amp;quot;/users&amp;quot;, userHandler::stream)&#xD;
+    }		&#xD;
+  }&#xD;
+  resources(&amp;quot;/**&amp;quot;, ClassPathResource(&amp;quot;static/&amp;quot;))&#xD;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Routes usually point to handlers in charge of creating an HTTP response based on the HTTP request via callable references. Here is the &lt;code&gt;UserHandler&lt;/code&gt; which takes advantage of the Kotlin extensions Spring Framework 5 is providing directly in Spring JARs to avoid the well-known type erasure problem using &lt;a href="https://kotlinlang.org/docs/reference/inline-functions.html#reified-type-parameters"&gt;Kotlin reified type parameters&lt;/a&gt;. The same code in Java would require additional &lt;code&gt;Class&lt;/code&gt; or &lt;code&gt;ParameterizedTypeReference&lt;/code&gt; parameters.&lt;/p&gt;
+&lt;p&gt;Like for the bean DSL, the functional routing DSL allows programmatic registration of routes based on custom logic and dynamic data (can be useful to develop a CMS or eCommerce solution where most routes depends on data created via the backoffice). &lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint kotlin"&gt;class UserHandler {&#xD;
+	&#xD;
+  private val users = Flux.just(&#xD;
+      User(&amp;quot;Foo&amp;quot;, &amp;quot;Foo&amp;quot;, LocalDate.now().minusDays(1)),&#xD;
+      User(&amp;quot;Bar&amp;quot;, &amp;quot;Bar&amp;quot;, LocalDate.now().minusDays(10)),&#xD;
+      User(&amp;quot;Baz&amp;quot;, &amp;quot;Baz&amp;quot;, LocalDate.now().minusDays(100)))&#xD;
+	&#xD;
+  private val userStream = Flux&#xD;
+      .zip(Flux.interval(ofMillis(100)), users.repeat())&#xD;
+      .map { it.t2 }&#xD;
+&#xD;
+  fun findAll(req: ServerRequest) =&#xD;
+      ok().body(users)&#xD;
+&#xD;
+  fun findAllView(req: ServerRequest) =&#xD;
+      ok().render(&amp;quot;users&amp;quot;, mapOf(Pair(&amp;quot;users&amp;quot;, users.map { it.toDto() })))&#xD;
+	&#xD;
+  fun stream(req: ServerRequest) =&#xD;
+      ok().bodyToServerSentEvents(userStream)&#xD;
+	&#xD;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Notice it is super easy to create Server-Sent Events endpoints with Spring WebFlux, as well as server-side template rendering (Mustache in this application).&lt;/p&gt;&lt;h2&gt;&lt;a href="#easy-testing-with-webclient-reactor-test-and-junit-5" class="anchor" name="easy-testing-with-webclient-reactor-test-and-junit-5"&gt;&lt;/a&gt;Easy testing with WebClient, Reactor Test and JUnit 5&lt;/h2&gt;
+&lt;p&gt;Kotlin allows to specify meaningful test function names betweeen backticks, and as of JUnit 5.0 RC2 Kotlin test classes automatically use &lt;code&gt;@TestInstance(TestInstance.Lifecycle.PER_CLASS)&lt;/code&gt; to enable a single instantiation of test classes which allows to use &lt;code&gt;@BeforeAll&lt;/code&gt; and &lt;code&gt;@AfterAll&lt;/code&gt; annotations on non-static methods, which is a good fit for Kotlin.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint"&gt;class IntegrationTests {&#xD;
+	&#xD;
+  val application = Application(8181)&#xD;
+  val client = WebClient.create(&amp;quot;http://localhost:8181&amp;quot;)&#xD;
+	&#xD;
+  @BeforeAll&#xD;
+  fun beforeAll() {&#xD;
+    application.start()&#xD;
+  }&#xD;
+	&#xD;
+  @Test&#xD;
+  fun `Find all users on JSON REST endpoint`() {&#xD;
+    client.get().uri(&amp;quot;/api/users&amp;quot;)&#xD;
+        .accept(APPLICATION_JSON)&#xD;
+        .retrieve()&#xD;
+        .bodyToFlux&amp;lt;User&amp;gt;()&#xD;
+        .test()&#xD;
+        .expectNextMatches { it.firstName == &amp;quot;Foo&amp;quot; }&#xD;
+        .expectNextMatches { it.firstName == &amp;quot;Bar&amp;quot; }&#xD;
+        .expectNextMatches { it.firstName == &amp;quot;Baz&amp;quot; }&#xD;
+        .verifyComplete()&#xD;
+  }&#xD;
+&#xD;
+  @Test&#xD;
+  fun `Find all users on HTML page`() {&#xD;
+    client.get().uri(&amp;quot;/users&amp;quot;)&#xD;
+        .accept(TEXT_HTML)&#xD;
+        .retrieve()&#xD;
+        .bodyToMono&amp;lt;String&amp;gt;()&#xD;
+        .test()&#xD;
+        .expectNextMatches { it.contains(&amp;quot;Foo&amp;quot;) }&#xD;
+        .verifyComplete()&#xD;
+  }&#xD;
+&#xD;
+  @Test&#xD;
+  fun `Receive a stream of users via Server-Sent-Events`() {&#xD;
+    client.get().uri(&amp;quot;/api/users&amp;quot;)&#xD;
+        .accept(TEXT_EVENT_STREAM)&#xD;
+        .retrieve()&#xD;
+        .bodyToFlux&amp;lt;User&amp;gt;()&#xD;
+        .test()&#xD;
+        .expectNextMatches { it.firstName == &amp;quot;Foo&amp;quot; }&#xD;
+        .expectNextMatches { it.firstName == &amp;quot;Bar&amp;quot; }&#xD;
+        .expectNextMatches { it.firstName == &amp;quot;Baz&amp;quot; }&#xD;
+        .expectNextMatches { it.firstName == &amp;quot;Foo&amp;quot; }&#xD;
+        .expectNextMatches { it.firstName == &amp;quot;Bar&amp;quot; }&#xD;
+        .expectNextMatches { it.firstName == &amp;quot;Baz&amp;quot; }&#xD;
+        .thenCancel()&#xD;
+        .verify()&#xD;
+  }&#xD;
+	&#xD;
+  @AfterAll&#xD;
+  fun afterAll() {&#xD;
+    application.stop()&#xD;
+  }&#xD;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;&lt;a href="#conclusion" class="anchor" name="conclusion"&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;We are looking forward to feedback about these new features! Note that August is our last chance to refine the API since &lt;a href="https://jira.spring.io/browse/SPR/fixforversion/16259/"&gt;the ultimate Spring Framework 5.0 release candidate&lt;/a&gt; is expected at the end of the month. So feel free to play with &lt;a href="https://github.com/sdeleuze/spring-kotlin-functional"&gt;spring-kotlin-functional&lt;/a&gt;, fork it, add new features like &lt;a href="https://jira.spring.io/browse/DATAMONGO-1719"&gt;Spring Data Reactive Fluent API&lt;/a&gt;, etc.&lt;/p&gt;
+&lt;p&gt;On our side, we are now working on the documentation.&lt;/p&gt;
+&lt;p&gt;Happy summer coding ;-)&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Spring Security OAuth 2.2 Released</title>
     <link rel="alternate" href="https://spring.io/blog/2017/07/28/spring-security-oauth-2-2-released" />
@@ -937,163 +1167,5 @@ Feedback, feature requests and, of course, contributions are welcomed via the us
 &lt;p&gt;This release comes with &lt;b&gt;refined nullability declarations&lt;/b&gt; (including the field and bean property level), &lt;b&gt;even stronger Kotlin support&lt;/b&gt; (with a declarative bean definition DSL and support for default constructor arguments on Kotlin data classes), as well as &lt;b&gt;several API refinements in Spring WebFlux&lt;/b&gt;. Furthermore, Spring Framework 5.0 RC3 ships against &lt;b&gt;Reactor 3.1 M3&lt;/b&gt; and &lt;b&gt;JUnit 5.0 M6&lt;/b&gt; and is fully tested against the recent JDK 9 release candidate.&lt;/p&gt;
 &lt;p&gt;With respect to our remaining roadmap, despite being feature-complete already, we opted for an &lt;b&gt;extended release candidate phase&lt;/b&gt;. This allows for further hardening of our revised APIs and in particular for a proper upgrade to Reactor 3.1 GA, JUnit 5.0 GA and Jackson 2.9 GA (all expected by early September). As a consequence, we are aiming for our &lt;b&gt;Spring Framework 5.0 GA release in September&lt;/b&gt; now, close to JDK 9&amp;rsquo;s general availability target.&lt;/p&gt;
 &lt;p&gt;Cheers,&lt;br/&gt;Juergen&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Cloud Dalston SR2 is available now</title>
-    <link rel="alternate" href="https://spring.io/blog/2017/07/21/spring-cloud-dalston-sr2-is-available-now" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Spencer Gibb</name>
-    </author>
-    <id>tag:spring.io,2017-07-21:2976</id>
-    <updated>2017-07-21T19:37:00Z</updated>
-    <content type="html">&lt;p&gt;On behalf of the community, I am pleased to announce that the Service Release 2 (SR2) of the &lt;a href="https://cloud.spring.io"&gt;Spring Cloud Dalston&lt;/a&gt; Release Train is available today. The release can be found in &lt;a href="http://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-dependencies/Dalston.SR2/"&gt;Maven Central&lt;/a&gt;. You can check out the Dalston &lt;a href="https://github.com/spring-projects/spring-cloud/wiki/Spring-Cloud-Dalston-Release-Notes"&gt;release notes for more information&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This release is primarily a bug fix release and users are encouraged to upgrade.&lt;/p&gt;&lt;h2&gt;&lt;a href="#end-of-life-for-angel-and-brixton-release-trains" class="anchor" name="end-of-life-for-angel-and-brixton-release-trains"&gt;&lt;/a&gt;End of Life for Angel and Brixton release trains&lt;/h2&gt;
-&lt;p&gt;The Angel and Brixton release trains have reached their end of life. As such, there will be no more releases to those trains. The community is encouraged to upgrade to Camden.SR7 or Dalston.SR2.&lt;/p&gt;
-&lt;p&gt;The following modules were updated as part of Dalston.SR2:&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Module &lt;/th&gt;
-      &lt;th&gt;Version &lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Commons &lt;/td&gt;
-      &lt;td&gt;1.2.3.RELEASE &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Config &lt;/td&gt;
-      &lt;td&gt;1.3.2.RELEASE &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Boot &lt;/td&gt;
-      &lt;td&gt;1.5.4.RELEASE &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Task &lt;/td&gt;
-      &lt;td&gt;1.1.2.RELEASE &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Build &lt;/td&gt;
-      &lt;td&gt;1.3.3.RELEASE &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Zookeeper &lt;/td&gt;
-      &lt;td&gt;1.1.1.RELEASE &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Boot Starter &lt;/td&gt;
-      &lt;td&gt;1.5.4.RELEASE &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Cloudfoundry &lt;/td&gt;
-      &lt;td&gt;1.1.0.RELEASE &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Stream &lt;/td&gt;
-      &lt;td&gt;Chelsea.SR2 &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Aws &lt;/td&gt;
-      &lt;td&gt;1.2.1.RELEASE &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Dependencies &lt;/td&gt;
-      &lt;td&gt;1.3.3.RELEASE &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Security &lt;/td&gt;
-      &lt;td&gt;1.2.1.RELEASE &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Bus &lt;/td&gt;
-      &lt;td&gt;1.3.1.RELEASE &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Sleuth &lt;/td&gt;
-      &lt;td&gt;1.2.2.RELEASE &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Netflix &lt;/td&gt;
-      &lt;td&gt;1.3.2.RELEASE &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Contract &lt;/td&gt;
-      &lt;td&gt;1.1.2.RELEASE &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Vault &lt;/td&gt;
-      &lt;td&gt;1.0.2.RELEASE &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Consul &lt;/td&gt;
-      &lt;td&gt;1.2.1.RELEASE &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;And, as always, we welcome feedback: either on &lt;a href="https://github.com/spring-cloud/"&gt;GitHub&lt;/a&gt;, on &lt;a href="https://gitter.im/spring-cloud/spring-cloud"&gt;Gitter&lt;/a&gt;, on &lt;a href="http://stackoverflow.com/questions/tagged/spring-cloud"&gt;Stack Overflow&lt;/a&gt;, or on &lt;a href="https://twitter.com/SpringCloud"&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To get started with Maven with a BOM (dependency management only)&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;&lt;br/&gt;&amp;lt;dependencyManagement&amp;gt;&#xD;
-    &amp;lt;dependencies&amp;gt;&#xD;
-        &amp;lt;dependency&amp;gt;&#xD;
-            &amp;lt;groupId&amp;gt;org.springframework.cloud&amp;lt;/groupId&amp;gt;&#xD;
-            &amp;lt;artifactId&amp;gt;spring-cloud-dependencies&amp;lt;/artifactId&amp;gt;&#xD;
-            &amp;lt;version&amp;gt;Dalston.SR2&amp;lt;/version&amp;gt;&#xD;
-            &amp;lt;type&amp;gt;pom&amp;lt;/type&amp;gt;&#xD;
-            &amp;lt;scope&amp;gt;import&amp;lt;/scope&amp;gt;&#xD;
-        &amp;lt;/dependency&amp;gt;&#xD;
-    &amp;lt;/dependencies&amp;gt;&#xD;
-&amp;lt;/dependencyManagement&amp;gt;&#xD;
-&amp;lt;dependencies&amp;gt;&#xD;
-    &amp;lt;dependency&amp;gt;&#xD;
-        &amp;lt;groupId&amp;gt;org.springframework.cloud&amp;lt;/groupId&amp;gt;&#xD;
-        &amp;lt;artifactId&amp;gt;spring-cloud-starter-config&amp;lt;/artifactId&amp;gt;&#xD;
-    &amp;lt;/dependency&amp;gt;&#xD;
-    &amp;lt;dependency&amp;gt;&#xD;
-        &amp;lt;groupId&amp;gt;org.springframework.cloud&amp;lt;/groupId&amp;gt;&#xD;
-        &amp;lt;artifactId&amp;gt;spring-cloud-starter-eureka&amp;lt;/artifactId&amp;gt;&#xD;
-    &amp;lt;/dependency&amp;gt;&#xD;
-    ...&#xD;
-&amp;lt;/dependencies&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;or with Gradle:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;buildscript {&#xD;
-    dependencies {&#xD;
-        classpath &amp;quot;io.spring.gradle:dependency-management-plugin:1.0.2.RELEASE&amp;quot;&#xD;
-    }&#xD;
-}&#xD;
-&#xD;
-&#xD;
-&#xD;
-apply plugin: &amp;quot;io.spring.dependency-management&amp;quot;&#xD;
-&#xD;
-dependencyManagement {&#xD;
-    imports {&#xD;
-        mavenBom &amp;#39;org.springframework.cloud:spring-cloud-dependencies:Dalston.SR2&amp;#39;&#xD;
-    }&#xD;
-}&#xD;
-&#xD;
-dependencies {&#xD;
-    compile &amp;#39;org.springframework.cloud:spring-cloud-starter-config&amp;#39;&#xD;
-    compile &amp;#39;org.springframework.cloud:spring-cloud-starter-eureka&amp;#39;&#xD;
-    ...&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Batch 3.0.8.RELEASE is now available</title>
-    <link rel="alternate" href="https://spring.io/blog/2017/07/20/spring-batch-3-0-8-release-is-now-available" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Michael Minella</name>
-    </author>
-    <id>tag:spring.io,2017-07-20:2975</id>
-    <updated>2017-07-20T20:13:04Z</updated>
-    <content type="html">&lt;p&gt;We are pleased to announce that Spring Batch 3.0.8.RELEASE is now available via Maven Central, Github, and the Pivotal download repository. This is the 8th maintenance release for the 3.0.x branch of Spring Batch and addresses a number of minor bug fixes and enhancements. One of the new features is that the &lt;code&gt;DefaultDataFieldMaxValueIncrementerFactory&lt;/code&gt; has been updated to support InnoDB for the sequence tables used in MySql for the job repository when using Spring Framework 4.3.6+. Many thanks to all of those who submitted the many &lt;a href="https://github.com/spring-projects/spring-batch/pulls"&gt;pull requests&lt;/a&gt; that went into this release.&lt;/p&gt;
-&lt;p&gt;Be sure to be on the lookout for Spring Batch 4.0.0.M3 coming out next week! New builders as well as the beginnings of our updates to our documentation will highlight that release.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://projects.spring.io/spring-batch/"&gt;Spring Batch Home&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-batch/reference/html/"&gt;Source on GitHub&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-batch/"&gt;Reference Documentation&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;We look forward to your feedback in &lt;a href="https://jira.spring.io/browse/BATCH"&gt;Jira&lt;/a&gt;, &lt;a href="http://stackoverflow.com/questions/tagged/spring-batch"&gt;StackOverflow&lt;/a&gt;, or to me directly via Twitter &lt;a href="https://twitter.com/michaelminella"&gt;@michaelminella&lt;/a&gt;.&lt;/p&gt;</content>
   </entry>
 </feed>

@@ -3,7 +3,6 @@ package com.packt.patterninspring.chapter8.bankapp.repository;
 import java.util.List;
 
 import org.hibernate.SessionFactory;
-import org.springframework.orm.hibernate5.HibernateTemplate;
 import org.springframework.stereotype.Repository;
 
 import com.packt.patterninspring.chapter8.bankapp.model.Account;
@@ -11,27 +10,35 @@ import com.packt.patterninspring.chapter8.bankapp.model.Account;
 @Repository
 public class HibernateAccountRepository implements AccountRepository {
 	
-	HibernateTemplate hibernateTemplate;
+	SessionFactory sessionFactory;
 	
 	public HibernateAccountRepository(SessionFactory sessionFactory) {
 		super();
-		hibernateTemplate = new HibernateTemplate(sessionFactory);
+		this.sessionFactory = sessionFactory;
 	}
 
 
 	@Override
-	public Account findAccountById(Long id) {//it is SQL, it HQL-Hibernate Query Language
-		return (Account) hibernateTemplate.find("FROM Account WHERE id=?", id).get(0);
+	public Account findAccountById(Long id) {
+		return sessionFactory.getCurrentSession().
+				createQuery("FROM Account WHERE id="+id, Account.class).getSingleResult();
 	}
 	
 	@Override
-	public List<Account> findAll() {//it is SQL, it HQL-Hibernate Query Language
-		return (List<Account>) hibernateTemplate.find("FROM Account");
+	public List<Account> findAll() {
+		return sessionFactory.getCurrentSession().createQuery("FROM Account").list();
 	}
 
 
 	@Override
 	public Long save(Account account) {
-		return (Long) hibernateTemplate.save(account);
+		return (Long) sessionFactory.getCurrentSession().save(account);
+	}
+
+
+	@Override
+	public Double checkAccountBalance(Account account) {
+		return sessionFactory.getCurrentSession().
+				createQuery("SELECT balance FROM Account where id="+account.getId(), Double.class).getSingleResult();
 	}
 }

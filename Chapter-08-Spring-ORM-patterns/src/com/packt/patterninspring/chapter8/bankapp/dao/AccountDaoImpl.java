@@ -1,17 +1,23 @@
 package com.packt.patterninspring.chapter8.bankapp.dao;
 
-import org.springframework.jdbc.core.support.JdbcDaoSupport;
+import org.hibernate.SessionFactory;
 
 /**
  * @author Dinesh.Rajput
  *
  */
-public class AccountDaoImpl extends JdbcDaoSupport implements AccountDao {
+public class AccountDaoImpl implements AccountDao {
+	
+	private SessionFactory sessionFactory;
 
+    public void setSessionFactory(SessionFactory sessionFactory) {
+        this.sessionFactory = sessionFactory;
+    }
+    
 	@Override
 	public Integer totalAccountsByBranch(String branchName) {
 		String sql = "SELECT count(*) FROM Account WHERE branchName = "+branchName;
-		return this.getJdbcTemplate().queryForObject(sql, Integer.class);
+		return this.sessionFactory.getCurrentSession().createQuery(sql, Integer.class).getSingleResult();
 	}
 
 }

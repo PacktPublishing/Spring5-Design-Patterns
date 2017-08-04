@@ -38,7 +38,7 @@ public class TransferServiceImpl implements TransferService{
 		Account accountB = accountRepository.findAccountById(b);////update 2//rollback//connect//close
 		//transferRepository.tranfer(amount, accountB); ////update 3-Not OK-
 		Account account = new Account(4000l);
-		account.setName("Siri");
+		account.setName("Dinesh");
 		account.setBalance(2000l);
 		accountRepository.save(account);
 		System.out.println(accountRepository.findAll());
