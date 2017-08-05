@@ -4,4 +4,5 @@
 //com.springsource.config.ui.prefs.activePageIndex\:/Chapter-05-Spring-Life-Cycle-Callback/config/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
 //com.springsource.config.ui.prefs.activePageIndex\:/Chapter-06-Spring-AOP-XML/config/spring.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
 //com.springsource.config.ui.prefs.activePageIndex\:/Chapter-07-Spring-JDBC-template-pattern/resources/spring.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/Chapter-08-Spring-ORM-patterns/resources/spring.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
 eclipse.preferences.version=1

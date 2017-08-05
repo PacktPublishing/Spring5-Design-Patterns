@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.packt.patterninspring.chapter9.bankapp.service;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public interface AccountService {
+	void transfer(Long amount, Long a, Long b);
+}

@@ -5,7 +5,190 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2017-08-01T20:44:00Z</updated>
+  <updated>2017-08-04T16:32:12Z</updated>
+  <entry>
+    <title>Spring IO Platform Brussels-SR4</title>
+    <link rel="alternate" href="https://spring.io/blog/2017/08/04/spring-io-platform-brussels-sr4" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Andy Wilkinson</name>
+    </author>
+    <id>tag:spring.io,2017-08-04:2996</id>
+    <updated>2017-08-04T16:32:12Z</updated>
+    <content type="html">&lt;p&gt;I am pleased to announce that &lt;a href="http://platform.spring.io/platform"&gt;Spring IO Platform&lt;/a&gt; Brussels-SR4 is now available from both &lt;a href="https://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and Maven Central. &lt;/p&gt;
+&lt;p&gt;This maintenance release upgrades the versions of a number of the projects in the Platform:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spring Batch 3.0.8&lt;/li&gt;
+  &lt;li&gt;Spring Boot 1.5.6&lt;/li&gt;
+  &lt;li&gt;Spring Data Ingalls SR6&lt;/li&gt;
+  &lt;li&gt;Spring Framework 4.3.10&lt;/li&gt;
+  &lt;li&gt;Spring Integration 4.3.11&lt;/li&gt;
+  &lt;li&gt;Spring Retry 1.2.1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The versions of a number of third-party dependencies have also been updated.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://platform.spring.io/platform"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/platform/docs/Brussels-SR4/reference/htmlsingle"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Cloud Pipelines 1.0.0.M6 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2017/08/04/spring-cloud-pipelines-1-0-0-m6-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Marcin Grzejszczak</name>
+    </author>
+    <id>tag:spring.io,2017-08-04:2997</id>
+    <updated>2017-08-04T11:44:43Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;On behalf of the Spring Cloud team it is my pleasure to announce a new milestone release of Spring Cloud Pipelines - &lt;code&gt;1.0.0.M6&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="what-s-new"&gt;&lt;a class="anchor" href="#what-s-new"&gt;&lt;/a&gt;What&amp;#8217;s new?&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="pipeline-descriptor"&gt;&lt;a class="anchor" href="#pipeline-descriptor"&gt;&lt;/a&gt;Pipeline descriptor&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Each application can contain a file called &lt;code&gt;pipeline.yml&lt;/code&gt; with the following structure:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-yml" data-lang="yml"&gt;lowercaseEnvironmentName1:
+    services:
+        - type: service1Type
+          name: service1Name
+          coordinates: value
+        - type: service2Type
+          name: service2Name
+          key: value
+lowercaseEnvironmentName2:
+    services:
+        - type: service3Type
+          name: service3Name
+          coordinates: value
+        - type: service4Type
+          name: service4Name
+          key: value&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;For a given environment we declare a list of infrastructure services that we want to have deployed. Services have&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;type&lt;/code&gt; (example: &lt;code&gt;eureka&lt;/code&gt;, &lt;code&gt;mysql&lt;/code&gt;, &lt;code&gt;rabbitmq&lt;/code&gt;, &lt;code&gt;stubrunner&lt;/code&gt;) - this value gets then applied to the &lt;code&gt;deployService&lt;/code&gt; Bash function&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;name&lt;/code&gt; - name of the service to get deployed&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;coordinates&lt;/code&gt; - coordinate that allows you to fetch the binary of the service. Examples: It can be a maven coordinate &lt;code&gt;groupid:artifactid:version&lt;/code&gt;, docker image &lt;code&gt;organization/nameOfImage&lt;/code&gt;, etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;arbitrary key value pairs - you can customize the services as you wish&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The &lt;code&gt;stubrunner&lt;/code&gt; type can also have the &lt;code&gt;useClasspath&lt;/code&gt; flag turned on to true or false.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-yml" data-lang="yml"&gt;test:
+  services:
+    - type: rabbitmq
+      name: rabbitmq-github-webhook
+    - type: mysql
+      name: mysql-github-webhook
+    - type: eureka
+      name: eureka-github-webhook
+      coordinates: com.example.eureka:github-eureka:0.0.1.M1
+    - type: stubrunner
+      name: stubrunner-github-webhook
+      coordinates: com.example.eureka:github-analytics-stub-runner-boot-classpath-stubs:0.0.1.M1
+      useClasspath: true
+stage:
+  services:
+    - type: rabbitmq
+      name: rabbitmq-github
+    - type: mysql
+      name: mysql-github
+    - type: eureka
+      name: github-eureka
+      coordinates: com.example.eureka:github-eureka:0.0.1.M1&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;When the deployment to &lt;code&gt;test&lt;/code&gt; or deployment to &lt;code&gt;stage&lt;/code&gt; occurs, Spring Cloud Pipelines will:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;for &lt;code&gt;test&lt;/code&gt; environment, delete existing services and redeploy the ones from the list&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;for &lt;code&gt;stage&lt;/code&gt; environment, if the service is not available it will get deployed. Otherwise nothing will happen&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="release-notes"&gt;&lt;a class="anchor" href="#release-notes"&gt;&lt;/a&gt;Release Notes&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;You can click &lt;a href="https://github.com/spring-cloud/spring-cloud-pipelines/releases/tag/v1.0.0.M6"&gt;here to see the Release Notes&lt;/a&gt; for more information about what&amp;#8217;s been done for this milestone.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="feedback-needed"&gt;&lt;a class="anchor" href="#feedback-needed"&gt;&lt;/a&gt;Feedback needed&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;If you&amp;#8217;re already using Spring Cloud Pipelines please comment under &lt;a href="https://github.com/spring-cloud/spring-cloud-pipelines/issues/55"&gt;this issue&lt;/a&gt; with steps you
+needed to take to customize the project to suit your company&amp;#8217;s needs. Without your feedback I won&amp;#8217;t be able to automate the customization process!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="webinar"&gt;&lt;a class="anchor" href="#webinar"&gt;&lt;/a&gt;Webinar&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;If you&amp;#8217;re interested in more information about the project please check out the  &lt;a href="https://content.pivotal.io/webinars/continuous-deployment-to-the-cloud"&gt;Spring Cloud Pipelines webinar&lt;/a&gt; that was recorded recently.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="links"&gt;&lt;a class="anchor" href="#links"&gt;&lt;/a&gt;Links&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Please check out any of these links for more information or to contact us:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://cloud.spring.io/spring-cloud-pipelines/"&gt;Project page&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://cloud.spring.io/spring-cloud-pipelines/spring-cloud-pipelines.html"&gt;Project documentation&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://cloud.spring.io/spring-cloud-pipelines/spring-cloud-pipelines.html#concourse"&gt;Concourse opinionated pipeline setup&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://concourse.ci"&gt;Concourse Website&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://cloud.spring.io/spring-cloud-pipelines/spring-cloud-pipelines.html#jenkins"&gt;Jenkins opinionated pipeline setup&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://gitter.im/spring-cloud/spring-cloud-pipelines"&gt;Spring Cloud Pipelines Gitter&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
   <entry>
     <title>This Week in Spring - August 1st, 2017</title>
     <link rel="alternate" href="https://spring.io/blog/2017/08/01/this-week-in-spring-august-1st-2017" />
@@ -130,7 +313,7 @@ fun main(args: Array&amp;lt;String&amp;gt;) {&#xD;
 &lt;p&gt;One of Kotlin&amp;rsquo;s key features is &lt;a href="https://kotlinlang.org/docs/reference/null-safety.html"&gt;null-safety&lt;/a&gt; which allows to deal with &lt;code&gt;null&lt;/code&gt; values at compile time rather than bumping into the famous &lt;code&gt;NullPointerException&lt;/code&gt; at runtime. This makes your applications safer through clean nullability declarations, expressing &amp;ldquo;value or no value&amp;rdquo; semantics without paying the cost of wrapper like &lt;code&gt;Optional&lt;/code&gt;. (Kotlin allows using functional constructs with nullable values; check out this &lt;a href="http://www.baeldung.com/kotlin-null-safety"&gt;comprehensive guide to Kotlin null-safety&lt;/a&gt;.)&lt;/p&gt;
 &lt;p&gt;Although Java does not allow to express null-safety in its type-system, we have introduced some amount of &lt;a href="https://jira.spring.io/browse/SPR-15540"&gt;null-safety to Spring APIs&lt;/a&gt; via tooling-friendly annotations: &lt;code&gt;@NonNullApi&lt;/code&gt; annotations at package level declare that non-null is the default behavior, and we explicitly put &lt;code&gt;@Nullable&lt;/code&gt; annotations where specific parameters or return values can be &lt;code&gt;null&lt;/code&gt;. We have done this work for the whole Spring Framework API (yes it was a huge effort!), and other projects like &lt;a href="https://jira.spring.io/browse/DATACMNS-1114"&gt;Spring Data&lt;/a&gt; begin to leverage it. Spring annotation are meta-annotated with JSR 305 meta-annotation (a dormant JSR but supported by tools like IDEA, Eclipse, Findbugs, etc.) to provide useful warnings to Java developers.&lt;/p&gt;
 &lt;p&gt;On the Kotlin side, the killer feature is that - as of the upcoming Kotlin 1.1.4 release - these annotations &lt;a href="https://youtrack.jetbrains.com/issue/KT-10942"&gt;are recognized by Kotlin&lt;/a&gt; in order to provide null-safety for the whole Spring API. That means you should never have &lt;code&gt;NullPointerException&lt;/code&gt; in your code when using Spring 5 and Kotlin because the compiler will not allow it. For now, you need to use a &lt;code&gt;-Xjsr305-annotations=enable&lt;/code&gt; flag but that will became the default behavior in an upcoming release of Kotlin.&lt;/p&gt;
-&lt;p&gt;Make sure to &lt;a href="https://github.com/sdeleuze/spring-kotlin-functional/blob/2d6ac07adfc2b8f25e91681dbb2b58a1c6cdf9a7/build.gradle.kts#L57"&gt;include JSR-305 JAR&lt;/a&gt; until &lt;a href="https://youtrack.jetbrains.com/issue/KT-19419"&gt;KT-19419&lt;/a&gt; is fixed, and be aware that &lt;a href="https://youtrack.jetbrains.com/issue/KT-19303"&gt;KT-19303&lt;/a&gt; need to be fixed in order to get null-safety taken in account in IDEA.&lt;/p&gt;&lt;h2&gt;&lt;a href="#functional-routing-with-the-kotlin-dsl-for-spring-webflux" class="anchor" name="functional-routing-with-the-kotlin-dsl-for-spring-webflux"&gt;&lt;/a&gt;Functional routing with the Kotlin DSL for Spring WebFlux&lt;/h2&gt;
+&lt;p&gt;Make sure to &lt;a href="https://github.com/sdeleuze/spring-kotlin-functional/blob/2d6ac07adfc2b8f25e91681dbb2b58a1c6cdf9a7/build.gradle.kts#L57"&gt;include JSR-305 JAR&lt;/a&gt; until &lt;a href="https://youtrack.jetbrains.com/issue/KT-19419"&gt;KT-19419&lt;/a&gt; is fixed, and use Kotlin 1.1.4 latest EAP to get null-safety taken in account in IDEA.&lt;/p&gt;&lt;h2&gt;&lt;a href="#functional-routing-with-the-kotlin-dsl-for-spring-webflux" class="anchor" name="functional-routing-with-the-kotlin-dsl-for-spring-webflux"&gt;&lt;/a&gt;Functional routing with the Kotlin DSL for Spring WebFlux&lt;/h2&gt;
 &lt;p&gt;Instead of using &lt;code&gt;@RestController&lt;/code&gt; and &lt;code&gt;@RequestMapping&lt;/code&gt;, &lt;code&gt;spring-kotlin-functional&lt;/code&gt; is using the WebFlux functional API via a dedicated Kotlin DSL.&lt;/p&gt;
 &lt;pre&gt;&lt;code class="prettyprint"&gt;router {&#xD;
   accept(TEXT_HTML).nest {&#xD;
@@ -166,7 +349,7 @@ fun main(args: Array&amp;lt;String&amp;gt;) {&#xD;
       ok().body(users)&#xD;
 &#xD;
   fun findAllView(req: ServerRequest) =&#xD;
-      ok().render(&amp;quot;users&amp;quot;, mapOf(Pair(&amp;quot;users&amp;quot;, users.map { it.toDto() })))&#xD;
+      ok().render(&amp;quot;users&amp;quot;, mapOf(&amp;quot;users&amp;quot; to users.map { it.toDto() }))&#xD;
 	&#xD;
   fun stream(req: ServerRequest) =&#xD;
       ok().bodyToServerSentEvents(userStream)&#xD;
@@ -174,8 +357,9 @@ fun main(args: Array&amp;lt;String&amp;gt;) {&#xD;
 }
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Notice it is super easy to create Server-Sent Events endpoints with Spring WebFlux, as well as server-side template rendering (Mustache in this application).&lt;/p&gt;&lt;h2&gt;&lt;a href="#easy-testing-with-webclient-reactor-test-and-junit-5" class="anchor" name="easy-testing-with-webclient-reactor-test-and-junit-5"&gt;&lt;/a&gt;Easy testing with WebClient, Reactor Test and JUnit 5&lt;/h2&gt;
-&lt;p&gt;Kotlin allows to specify meaningful test function names betweeen backticks, and as of JUnit 5.0 RC2 Kotlin test classes automatically use &lt;code&gt;@TestInstance(TestInstance.Lifecycle.PER_CLASS)&lt;/code&gt; to enable a single instantiation of test classes which allows to use &lt;code&gt;@BeforeAll&lt;/code&gt; and &lt;code&gt;@AfterAll&lt;/code&gt; annotations on non-static methods, which is a good fit for Kotlin.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;class IntegrationTests {&#xD;
+&lt;p&gt;Kotlin allows to specify meaningful test function names betweeen backticks, and as of JUnit 5.0 RC2 Kotlin test classes can use &lt;code&gt;@TestInstance(TestInstance.Lifecycle.PER_CLASS)&lt;/code&gt; to enable a single instantiation of test classes which allows to use &lt;code&gt;@BeforeAll&lt;/code&gt; and &lt;code&gt;@AfterAll&lt;/code&gt; annotations on non-static methods, which is a good fit for Kotlin. When &lt;a href="https://github.com/junit-team/junit5/issues/905"&gt;this issue&lt;/a&gt; will be fixed, it should be possible to configure that as the default behavior.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint"&gt;@TestInstance(PER_CLASS)&#xD;
+class IntegrationTests {&#xD;
 	&#xD;
   val application = Application(8181)&#xD;
   val client = WebClient.create(&amp;quot;http://localhost:8181&amp;quot;)&#xD;
@@ -1120,52 +1304,5 @@ Feedback, feature requests and, of course, contributions are welcomed via the us
 &lt;div class="paragraph"&gt;
 &lt;p&gt;&lt;a href="http://projects.spring.io/spring-amqp/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://jira.spring.io/browse/AMQP"&gt;JIRA&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-amqp/blob/master/CONTRIBUTING.adoc"&gt;Contributing&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-amqp"&gt;Help&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-amqp"&gt;Chat&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Security 5.0.0 M3 Released</title>
-    <link rel="alternate" href="https://spring.io/blog/2017/07/24/spring-security-5-0-0-m3-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Joe Grandja</name>
-    </author>
-    <id>tag:spring.io,2017-07-24:2977</id>
-    <updated>2017-07-24T16:33:00Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;On behalf of the community, I&amp;#8217;m pleased to announce the release of Spring Security 5.0.0 M3. This release includes bug fixes, new features, and is based off of Spring Framework 5.0.0 RC3.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The new features included in this milestone are:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="ulist"&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Support added for &lt;a href="https://tools.ietf.org/html/rfc7519"&gt;JSON Web Token (JWT)&lt;/a&gt; and &lt;a href="https://tools.ietf.org/html/rfc7515"&gt;JSON Web Signature (JWS)&lt;/a&gt; via the new module &lt;strong&gt;&lt;em&gt;spring-security-jwt-jose&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Integrated the &lt;a href="http://openid.net/specs/openid-connect-core-1_0.html#IDToken"&gt;ID Token&lt;/a&gt; for OpenID Connect authentication flows&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Please refer to the &lt;a href="https://github.com/spring-projects/spring-security/milestone/100?closed=1"&gt;change log&lt;/a&gt; for further details on this release.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="http://projects.spring.io/spring-security/"&gt;Project Site&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-security/site/docs/5.0.0.M3/reference/htmlsingle/"&gt;Reference&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-security/site/docs/current/guides/html5/"&gt;Guides&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-security"&gt;Help&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Framework 5.0 RC3 - on the way to GA</title>
-    <link rel="alternate" href="https://spring.io/blog/2017/07/24/spring-framework-5-0-rc3-on-the-way-to-ga" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Juergen Hoeller</name>
-    </author>
-    <id>tag:spring.io,2017-07-20:2973</id>
-    <updated>2017-07-24T08:20:00Z</updated>
-    <content type="html">&lt;p&gt;Dear Spring community,&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m pleased to announce that the &lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10000&amp;version=16199"&gt;third Spring Framework 5.0 release candidate&lt;/a&gt; is &lt;a href="http://projects.spring.io/spring-framework/"&gt;available&lt;/a&gt;!&lt;/p&gt;
-&lt;p&gt;This release comes with &lt;b&gt;refined nullability declarations&lt;/b&gt; (including the field and bean property level), &lt;b&gt;even stronger Kotlin support&lt;/b&gt; (with a declarative bean definition DSL and support for default constructor arguments on Kotlin data classes), as well as &lt;b&gt;several API refinements in Spring WebFlux&lt;/b&gt;. Furthermore, Spring Framework 5.0 RC3 ships against &lt;b&gt;Reactor 3.1 M3&lt;/b&gt; and &lt;b&gt;JUnit 5.0 M6&lt;/b&gt; and is fully tested against the recent JDK 9 release candidate.&lt;/p&gt;
-&lt;p&gt;With respect to our remaining roadmap, despite being feature-complete already, we opted for an &lt;b&gt;extended release candidate phase&lt;/b&gt;. This allows for further hardening of our revised APIs and in particular for a proper upgrade to Reactor 3.1 GA, JUnit 5.0 GA and Jackson 2.9 GA (all expected by early September). As a consequence, we are aiming for our &lt;b&gt;Spring Framework 5.0 GA release in September&lt;/b&gt; now, close to JDK 9&amp;rsquo;s general availability target.&lt;/p&gt;
-&lt;p&gt;Cheers,&lt;br/&gt;Juergen&lt;/p&gt;</content>
   </entry>
 </feed>

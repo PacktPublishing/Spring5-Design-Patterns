@@ -11,7 +11,7 @@
 		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd">
 
- 	<context:component-scan base-package="com.packt.patterninspring.chapter8.bankapp.config"/>
+ 	<context:component-scan base-package="com.packt.patterninspring.chapter8.bankapp"/>
  	
  	<tx:annotation-driven/> 
 

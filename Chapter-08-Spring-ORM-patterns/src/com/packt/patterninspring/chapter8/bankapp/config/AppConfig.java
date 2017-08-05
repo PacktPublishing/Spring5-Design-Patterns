@@ -10,8 +10,8 @@ import org.springframework.context.annotation.ImportResource;
  *
  */
 @Configuration
-@ComponentScan(basePackages={"com.doj.springapp.repository", "com.doj.springapp.service"})//implicity bean creation
-@Import({InfrastructureConfig.class, SecurityConfig.class})
+@ComponentScan(basePackages={"com.packt.patterninspring.chapter8.bankapp.repository", "com.packt.patterninspring.chapter8.bankapp.service"})
+@Import({InfrastructureConfig.class})
 @ImportResource({"spring.xml"})
 public class AppConfig {
 	

@@ -3,8 +3,6 @@ package com.packt.patterninspring.chapter7.bankapp.service;
 import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Isolation;
-import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.packt.patterninspring.chapter7.bankapp.model.Account;
@@ -16,7 +14,6 @@ import com.packt.patterninspring.chapter7.bankapp.repository.TransferRepository;
  *
  */
 @Service
-@Transactional(transactionManager = "transactionManager", isolation =Isolation.READ_COMMITTED, propagation=Propagation.REQUIRED, readOnly=true)
 public class TransferServiceImpl implements TransferService{
 	//1. always resolve dependency by type if failure then its try with by property name
 	@Resource(name="jdbcAccountRepository") 
@@ -32,7 +29,7 @@ public class TransferServiceImpl implements TransferService{
 	}*/
 	
 	@Override
-	@Transactional //Demarcation
+	@Transactional 
 	public void transfer(Long amount, Long a, Long b){
 		Account accountA = accountRepository.findAccountById(a);//update 1-OK//rollback//connect
 		Account accountB = accountRepository.findAccountById(b);////update 2//rollback//connect//close

@@ -1986,3 +1986,199 @@ org.eclipse.core.runtime.CoreException: Launch configuration AspectDemo (1) refe
 2017-08-02 22:29:34,160 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
 2017-08-02 22:29:34,162 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-08-02 22:29:34,171 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 11:40:49,149 [Worker-118] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 11:40:49,274 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 11:40:49,277 [Worker-118] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 11:40:49,289 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 11:53:40,188 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 11:53:40,211 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 11:53:40,214 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 11:53:40,250 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 11:53:58,608 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 11:53:58,621 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 11:53:58,622 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 11:53:58,634 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 11:54:14,971 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 11:54:14,984 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 11:54:14,985 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 11:54:14,995 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 11:54:27,845 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 11:54:27,861 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 11:54:27,862 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 11:54:27,873 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:31:40,539 [Worker-159] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:31:40,579 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:31:40,580 [Worker-159] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:31:40,619 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:31:45,494 [Worker-161] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:31:45,503 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:31:45,504 [Worker-161] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:31:45,511 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:33:12,737 [Worker-159] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:33:12,745 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:33:12,748 [Worker-159] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:33:12,754 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:33:15,757 [Worker-159] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:33:15,765 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:33:15,767 [Worker-159] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:33:15,775 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:33:25,322 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:33:25,347 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:33:25,348 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:33:25,361 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:34:33,377 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:34:33,389 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:34:33,391 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:34:33,399 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:34:42,769 [Worker-161] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:34:42,776 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:34:42,777 [Worker-161] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:34:42,784 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:34:50,325 [Worker-166] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:34:50,332 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:34:50,333 [Worker-166] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:34:50,338 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:35:48,859 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:35:48,866 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:35:48,868 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:35:48,873 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:35:51,112 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:35:51,119 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:35:51,121 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:35:51,128 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:37:06,816 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:37:06,823 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:37:06,826 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:37:06,833 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:38:04,502 [Worker-162] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:38:04,509 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:38:04,510 [Worker-162] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:38:04,515 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:38:12,452 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:38:12,458 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:38:12,459 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:38:12,467 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:39:06,541 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:39:06,549 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:39:06,552 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:39:06,560 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:39:36,515 [Worker-161] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:39:36,523 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:39:36,525 [Worker-161] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:39:36,543 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:40:44,572 [Worker-167] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:40:44,579 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:40:44,581 [Worker-167] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:40:44,591 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:42:15,083 [Worker-163] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:42:15,091 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:42:15,092 [Worker-163] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:42:15,097 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:42:17,821 [Worker-166] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:42:17,828 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:42:17,830 [Worker-166] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:42:17,837 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:43:20,642 [Worker-166] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:43:20,651 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:43:20,652 [Worker-166] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:43:20,658 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:43:36,707 [Worker-162] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:43:36,712 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:43:36,713 [Worker-162] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:43:36,718 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:43:46,788 [Worker-162] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:43:46,795 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:43:46,796 [Worker-162] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:43:46,802 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:43:49,386 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:43:49,393 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:43:49,394 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:43:49,401 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:44:05,629 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:44:05,641 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:44:05,643 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:44:05,650 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:44:34,626 [Worker-166] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:44:34,631 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:44:34,632 [Worker-166] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:44:34,637 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:54:56,868 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:54:56,875 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:54:56,876 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:54:56,882 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 14:55:08,618 [Worker-175] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:55:08,624 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 14:55:08,625 [Worker-175] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 14:55:08,632 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 16:18:29,937 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:18:29,945 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 16:18:29,947 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:18:29,954 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 16:18:47,147 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:18:47,154 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 16:18:47,156 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:18:47,163 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 16:21:29,693 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:21:29,699 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 16:21:29,700 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:21:29,705 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 16:21:41,469 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:21:41,479 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 16:21:41,480 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:21:41,487 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 16:21:57,536 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:21:57,541 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 16:21:57,542 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:21:57,550 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 16:22:08,150 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:22:08,158 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 16:22:08,159 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:22:08,166 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 16:22:23,277 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:22:23,290 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 16:22:23,292 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:22:23,298 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 16:23:36,521 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:23:36,527 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 16:23:36,528 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:23:36,534 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 16:23:54,919 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:23:54,926 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 16:23:54,928 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:23:54,933 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 16:24:06,630 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:24:06,635 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 16:24:06,636 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:24:06,642 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 16:24:16,163 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:24:16,170 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 16:24:16,172 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:24:16,177 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 16:24:20,531 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:24:20,542 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 16:24:20,543 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:24:20,551 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 16:25:08,404 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:25:08,409 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 16:25:08,410 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:25:08,415 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 16:25:16,360 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:25:16,368 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 16:25:16,369 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:25:16,376 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 16:25:19,031 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:25:19,039 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 16:25:19,040 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:25:19,046 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 16:25:23,347 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:25:23,354 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 16:25:23,356 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:25:23,361 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 16:25:30,108 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:25:30,133 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 16:25:30,134 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 16:25:30,142 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources
+2017-08-04 17:24:21,333 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 17:24:21,341 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\main\resources
+2017-08-04 17:24:21,342 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-04 17:24:21,347 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-book-workspace\Chapter-08-Spring-ORM-patterns\src\test\resources

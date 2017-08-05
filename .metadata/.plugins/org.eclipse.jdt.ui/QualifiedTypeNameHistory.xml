@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.factory.pattern.AccountFactory"/>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.model.ICICIBank"/>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.model.YesBank"/>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.prototype.pattern.Account"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.prototype.pattern.CurrentAccount"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="java.lang.Cloneable"/>
@@ -41,7 +37,6 @@
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter4.bankapp.service.TransferService"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.config.BeanPostProcessor"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
@@ -60,4 +55,9 @@
 <fullyQualifiedTypeName name="org.springframework.jdbc.core.support.JdbcDaoSupport"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter7.bankapp.callbacks.AccountRowMapper"/>
 <fullyQualifiedTypeName name="org.springframework.orm.hibernate5.LocalSessionFactoryBean"/>
+<fullyQualifiedTypeName name="org.springframework.transaction.annotation.EnableTransactionManagement"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="org.springframework.transaction.TransactionStatus"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
 </qualifiedTypeNameHistroy>
