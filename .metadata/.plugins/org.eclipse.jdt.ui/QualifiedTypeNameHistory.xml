@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.prototype.pattern.CurrentAccount"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="java.lang.Cloneable"/>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.builder.pattern.Loan"/>
-<fullyQualifiedTypeName name="java.lang.Double"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.builder.pattern.LoanBuilder"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.builder.pattern.LoanManager"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.builder.pattern.HomeLoanBuilder"/>
@@ -39,7 +34,6 @@
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter5.bankapp.config.AppConfig"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter5.bankapp.repository.AccountRepository"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter5.bankapp.repository.JdbcAccountRepository"/>
@@ -58,6 +52,12 @@
 <fullyQualifiedTypeName name="org.springframework.transaction.annotation.EnableTransactionManagement"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 <fullyQualifiedTypeName name="org.springframework.transaction.TransactionStatus"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter7.bankapp.config.AppConfig"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter9.bankapp.service.AccountService"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.cache.annotation.CachePut"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.cache.annotation.CacheEvict"/>
 </qualifiedTypeNameHistroy>
