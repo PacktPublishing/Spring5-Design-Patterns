@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.builder.pattern.LoanBuilder"/>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.builder.pattern.LoanManager"/>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.builder.pattern.HomeLoanBuilder"/>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.builder.pattern.CarLoanBuilder"/>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.builder.pattern.Account"/>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.builder.pattern.Account.AccountBuilder"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.prototype.pattern.SavingAccount"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.adapter.pattern.PaymentGateway"/>
@@ -60,4 +54,10 @@
 <fullyQualifiedTypeName name="org.springframework.cache.annotation.CachePut"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
 <fullyQualifiedTypeName name="org.springframework.cache.annotation.CacheEvict"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter10.bankapp.model.User"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.jca.endpoint.GenericMessageEndpointManager"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
 </qualifiedTypeNameHistroy>

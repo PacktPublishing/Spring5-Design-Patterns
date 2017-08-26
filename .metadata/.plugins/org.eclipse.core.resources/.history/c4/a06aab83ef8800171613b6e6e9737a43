@@ -1,0 +1,53 @@
+/**
+ * 
+ */
+package com.packt.patterninspring.chapter10.bankapp.web.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.packt.patterninspring.chapter10.bankapp.model.Account;
+import com.packt.patterninspring.chapter10.bankapp.service.TransferService;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+@Controller
+public class AccountController {
+	
+	@Autowired
+	TransferService transferService;
+	
+	@GetMapping(value = "/open-account")
+	public String create (){
+		return "account";
+	}
+	
+	@PostMapping(value = "/open-account")
+	public String save (Account account, ModelMap model){
+		account = transferService.open(account);
+		model.put("account", account);
+		return "account";
+	}
+	
+	@GetMapping(value = "/account")
+	public String getAccountDetails (ModelMap model, @RequestParam Long accountId){
+		Account account = transferService.findOne(accountId);
+		model.put("account", account);
+		return "account";
+	}
+	
+	@GetMapping(value = "/all-accounts")
+	public String all (ModelMap model){
+		List<Account> accounts = transferService.findAllAccounts();
+		model.put("accounts", accounts);
+		return "accounts";
+	}
+}

@@ -3,6 +3,8 @@
  */
 package com.packt.patterninspring.chapter10.bankapp.service;
 
+import java.util.List;
+
 import com.packt.patterninspring.chapter10.bankapp.model.Account;
 
 /**
@@ -11,9 +13,10 @@ import com.packt.patterninspring.chapter10.bankapp.model.Account;
  */
 public interface AccountService {
 	
-	Account findOne(Long id);
+	Account open(Account account);
 	
-	Account save(Account account);
+	List<Account> findAllAccounts();
 	
-	void remove(Long id);
+	Account findOne(Long accountId);
+	
 }

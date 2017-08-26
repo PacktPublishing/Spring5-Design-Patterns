@@ -30,6 +30,8 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="Chapter-05-Custom-Scope-Bean"/>
+			<item value="Chapter-10-Spring-MVC-pattern"/>
 			<item value="Chapter-09-Spring-Cache"/>
 			<item value="Chapter-08-Spring-ORM-patterns"/>
 			<item value="Chapter-07-Spring-JDBC-template-pattern"/>
@@ -39,6 +41,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Chapter-05-Custom-Scope-Bean"/>
+			<item value="Chapter-10-Spring-MVC-pattern"/>
 			<item value="Chapter-09-Spring-Cache"/>
 			<item value="Chapter-08-Spring-ORM-patterns"/>
 			<item value="Chapter-07-Spring-JDBC-template-pattern"/>
