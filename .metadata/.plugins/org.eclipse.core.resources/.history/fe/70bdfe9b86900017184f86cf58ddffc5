@@ -38,7 +38,7 @@ public class AccountController {
                 .map(a -> new Account(a.getId(), a.getName(), a.getBalance(), a.getBranch()));
     }
  
-    @PostMapping("/account")
+    @PostMapping("/accout")
     public Mono<Account> create(@RequestBody Publisher<Account> accountStream) {
     	return repository
     			.save(Mono.from(accountStream)

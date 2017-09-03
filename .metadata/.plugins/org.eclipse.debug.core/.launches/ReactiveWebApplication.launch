@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/Chapter-11-Spring-Reactive-Pattern/src/main/java/com/packt/patterninspring/chapter11/reactivewebapp/DemoApplication.java"/>
+<listEntry value="/Chapter-11-Spring-Reactive-Pattern/src/main/java/com/packt/patterninspring/chapter11/reactivewebapp/ReactiveWebApplication.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
 <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.packt.patterninspring.chapter11.reactivewebapp.DemoApplication"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.packt.patterninspring.chapter11.reactivewebapp.ReactiveWebApplication"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Chapter-11-Spring-Reactive-Pattern"/>
 <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
 </launchConfiguration>
