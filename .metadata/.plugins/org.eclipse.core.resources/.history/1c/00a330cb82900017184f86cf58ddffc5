@@ -1,0 +1,47 @@
+/**
+ * 
+ */
+package com.packt.patterninspring.chapter11.reactivewebapp.repository;
+
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+
+import com.packt.patterninspring.chapter11.reactivewebapp.model.Account;
+
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class AccountRepositoryImpl implements AccountRepository {
+	
+	private final Map<Integer, Account> accountMap = new ConcurrentHashMap<>(); 
+	
+	public AccountRepositoryImpl() {
+        this.accountMap.put(1000, new Account(1000l, "Dinesh Rajput", 50000l, "Noida"));
+ 
+        this.accountMap.put(2000, new Account(512,
+                "Spring Guru Mug",
+                "Spring Framework Guru Green Cofee Mug",
+                "https://springframework.guru/wp-content/uploads/2015/04/spring_framework_guru_coffee_mug-r11e7694903c348e1a667dfd2f1474d95_x7j54_8byvr_512.jpg",
+                new BigDecimal("11.95")));
+    }
+	
+	@Override
+	public Mono<Account> findById(Long id) {
+		return null;
+	}
+
+	@Override
+	public Flux<Account> findAll() {
+		return null;
+	}
+
+	@Override
+	public Mono<Account> save(Mono<Account> account) {
+		return null;
+	}
+
+}

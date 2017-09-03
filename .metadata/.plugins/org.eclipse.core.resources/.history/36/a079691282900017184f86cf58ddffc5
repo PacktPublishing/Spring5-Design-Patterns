@@ -1,0 +1,44 @@
+/**
+ * 
+ */
+package com.packt.patterninspring.chapter11.reactivewebapp.repository;
+
+import com.packt.patterninspring.chapter11.reactivewebapp.model.Account;
+
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class AccountRepositoryImpl implements AccountRepository {
+
+	/* (non-Javadoc)
+	 * @see com.packt.patterninspring.chapter11.reactivewebapp.repository.AccountRepository#findById(java.lang.Long)
+	 */
+	@Override
+	public Mono<Account> findById(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see com.packt.patterninspring.chapter11.reactivewebapp.repository.AccountRepository#findAll()
+	 */
+	@Override
+	public Flux<Account> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see com.packt.patterninspring.chapter11.reactivewebapp.repository.AccountRepository#save(reactor.core.publisher.Mono)
+	 */
+	@Override
+	public Mono<Account> save(Mono<Account> account) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

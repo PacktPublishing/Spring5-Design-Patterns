@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;Chapter-11-Spring-Reactive-Pattern/src/main/resources&apos;&#x0D;&#x0A;- Original project: &apos;Chapter-10-Spring-MVC-pattern&apos;&#x0D;&#x0A;- Destination element: &apos;Chapter-11-Spring-Reactive-Pattern/src/main/resources&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     data.sql&#x0D;&#x0A;     database.properties&#x0D;&#x0A;     schema.sql" description="Copy files" destination="=Chapter-11-Spring-Reactive-Pattern/src\/main\/resources" element1="resources/data.sql" element2="resources/database.properties" element3="resources/schema.sql" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1504374900275" units="0" version="1.0"/>
+</session>

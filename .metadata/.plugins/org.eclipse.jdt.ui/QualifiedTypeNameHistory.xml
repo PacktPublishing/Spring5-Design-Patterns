@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.Override"/>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.prototype.pattern.SavingAccount"/>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.adapter.pattern.PaymentGateway"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.adapter.pattern.PaymentGatewayImpl"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.adapter.pattern.AdvancedPayGateway"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.adapter.pattern.AdvancedPaymentGatewayAdapter"/>
@@ -57,7 +54,10 @@
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter10.bankapp.model.User"/>
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="org.springframework.jca.endpoint.GenericMessageEndpointManager"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="org.springframework.data.repository.Repository"/>
 </qualifiedTypeNameHistroy>

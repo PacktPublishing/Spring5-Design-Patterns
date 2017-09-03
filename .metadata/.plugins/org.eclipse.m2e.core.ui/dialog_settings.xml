@@ -14,6 +14,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\packt-book-workspace\Chapter-11-Spring-Reactive-Pattern"/>
 			<item value="D:\packt-book-workspace\Chapter-06-Spring-AOP-Annotation"/>
 			<item value="D:\packt-book-workspace\Chapter-05-Custom-Bean-Scope"/>
 			<item value="D:\packt-book-workspace\Chapter-04-Spring-Factory-Bean"/>

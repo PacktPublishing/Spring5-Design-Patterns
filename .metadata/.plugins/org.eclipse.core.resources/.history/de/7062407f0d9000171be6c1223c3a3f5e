@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package com.packt.patterninspring.chapter11.reactivewebapp.repository;
+
+import org.springframework.data.repository.CrudRepository;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public interface AccountRepository extends CrudRepository<T, ID> {
+
+}

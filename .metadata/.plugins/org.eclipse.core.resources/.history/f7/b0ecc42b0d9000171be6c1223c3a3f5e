@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package com.packt.patterninspring.chapter11.reactivewebapp.repository;
+
+import org.springframework.stereotype.Repository;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+@Repository	
+public class AccountRepository {
+
+}

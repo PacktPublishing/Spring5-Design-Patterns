@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package com.packt.patterninspring.chapter11.reactivewebapp.repository;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+@Repository
+public class AccountRepository {
+
+}

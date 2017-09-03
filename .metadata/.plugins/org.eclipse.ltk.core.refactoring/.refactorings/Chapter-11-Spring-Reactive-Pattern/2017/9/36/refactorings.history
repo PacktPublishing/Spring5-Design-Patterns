@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.example.demo&apos; to &apos;com.packt.patterninspring.chapter11.reactivewebapp&apos;&#x0D;&#x0A;- Original project: &apos;Chapter-11-Spring-Reactive-Pattern&apos;&#x0D;&#x0A;- Original element: &apos;Chapter-11-Spring-Reactive-Pattern/src/main/java/com.example.demo&apos;&#x0D;&#x0A;- Renamed element: &apos;Chapter-11-Spring-Reactive-Pattern/src/main/java/com.packt.patterninspring.chapter11.reactivewebapp&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.example.demo&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.example.demo" name="com.packt.patterninspring.chapter11.reactivewebapp" qualified="false" references="true" stamp="1504412699755" textual="false" version="1.0"/>
+</session>
