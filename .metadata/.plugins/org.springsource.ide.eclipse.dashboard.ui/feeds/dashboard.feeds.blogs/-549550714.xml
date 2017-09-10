@@ -5,7 +5,38 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2017-08-31T14:10:00Z</updated>
+  <updated>2017-09-04T21:45:00Z</updated>
+  <entry>
+    <title>This Week in Spring - September 5th, 2017</title>
+    <link rel="alternate" href="https://spring.io/blog/2017/09/04/this-week-in-spring-september-5th-2017" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2017-09-04:3013</id>
+    <updated>2017-09-04T21:45:00Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans and welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! This week I&amp;rsquo;m in Hong Kong for the amazing &lt;a href="http://www.yowconference.hk/"&gt;YOW! Hong Kong&lt;/a&gt; event and then it&amp;rsquo;s off to Singapore for the &lt;a href="http://www.yowconference.sg"&gt;YOW! Singapore&lt;/a&gt; event. If you&amp;rsquo;re in either region, these conferences are world-class events from Australia and they&amp;rsquo;re new in the region so I hope you&amp;rsquo;ll give them a shot. &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Check out this first of many introductions to various aspects of Spring Cloud Data Flow. This first introduction, by Spring Cloud Data Flow ninja Eric Bottard, &lt;a href="https://spring.io/blog/2017/08/29/spring-cloud-data-flow-tips-tricks-interacting-with-the-shell"&gt;looks at the Spring Cloud Data Flow shell&lt;/a&gt; itself.&lt;/li&gt;
+  &lt;li&gt;Spring Cloud contributor &lt;a href="https://spring.io/blog/2017/08/29/spring-cloud-edgware-m1-is-now-available"&gt;Ryan Baxter just announced Spring Cloud Edgeware M1&lt;/a&gt;. The new release includes updates to the various projects as well as the new Spring Cloud Gateway project. This version is based on Spring Boot 1.5.x.&lt;/li&gt;
+  &lt;li&gt;Spring Cloud co-founder Spencer Gibb &lt;a href="https://spring.io/blog/2017/08/30/spring-cloud-finchley-m2-is-available"&gt;just announced Spring Cloud Finchely M2&lt;/a&gt;. This new release is based on Spring Boot 2.0.x and so has a Java 8-baseline. It also supports a lot more cool features in Spring Cloud Gateway. A common theme of this release, in Spring Cloud Gateway and other releases, is reactive support.&lt;/li&gt;
+  &lt;li&gt;Spring Cloud Data Flow ninja Thomas Risberg &lt;a href="https://spring.io/blog/2017/08/31/simple-installation-of-data-flow-for-kubernetes-with-helm"&gt;introduces the Helm installer for Spring Cloud Data Flow for Kubernetes in this post&lt;/a&gt;. Helm is a package manager for Kubernetes.&lt;/li&gt;
+  &lt;li&gt;This Pivotal and Apigee whitepaper on &lt;a href="https://content.pivotal.io/apigee/application-modernization?_lrsc=9d76ba9e-eb43-42fb-b85d-9e5b48373ac4"&gt;application modernization was a pretty good read&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;This is an oldie-but-a-goodie from earlier this year by Matt McCandless called &lt;a href="https://dzone.com/articles/spring-boot-the-right-boot-for-you-1"&gt;&lt;em&gt;Spring Boot: The Right Boot for You&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;this post on &lt;a href="http://www.opencodez.com/java/quartz-scheduler-with-spring-boot.htm"&gt;the Quartz Scheduler with Spring Boot&lt;/a&gt; was a blast-from-the-past sort of article. I dig it.&lt;/li&gt;
+  &lt;li&gt;It&amp;rsquo;s looking like there will be &lt;a href="https://jcp.org/aboutJava/communityprocess/ec-public/materials/2017-08-15/JCP-EC-Minutes-August-2017.html"&gt;a 6 month cadence for new Java releases&lt;/a&gt; after Java 9 ships. I personally welcome this idea.&lt;/li&gt;
+  &lt;li&gt;I really liked this Russian-language &lt;a href="https://alexkosarev.name/2017/08/08/application-development-with-spring-part-1/"&gt;post introducing application development with Spring Boot&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Last week Pivotal, in conjunction with &lt;a href="https://www.blog.google/topics/google-cloud/vmware-and-pivotal-launch-new-hybrid-kubernetes-solution-optimized-gcp/"&gt;Google&lt;/a&gt; and VMWare, announced a very important next step for the Pivotal Cloud Foundry ecosystem - &lt;em&gt;Pivotal Container Service&lt;/em&gt; - a Kubernetes-service managed by BOSH. Get the skinny on how &lt;a href="https://techcrunch.com/2017/08/29/seven-moves-that-led-to-the-vmware-pivotal-google-partnership/amp/"&gt;we got here from this TechCrunch piece&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I loved this Auth0 piece on integrating &lt;a href="https://auth0.com/blog/integrating-spring-data-jpa-postgresql-liquibase/"&gt;Spring Boot with a SQL database (PostgreSQL), JPA and Liquibase&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;this post from JHipster on &lt;a href="http://www.jhipster.tech/doing-api-first-development/"&gt;Doing API-First development&lt;/a&gt; was interesting.&lt;/li&gt;
+  &lt;li&gt;Spring Boot 2.0, with a reactive Spring Framework 5 and Java 8 baseline, is sure to impress. One of my favorite features in the new release is REST-stack agnostic (reactive Spring WebFlux, Spring MVC or JAX-RS) &lt;a href="https://www.infoq.com/news/2017/08/spring-boot-2-actuator-endpoints"&gt;support for the Spring Boot Actuator endpoints&lt;/a&gt;, which this blog post details.&lt;/li&gt;
+  &lt;li&gt;Check out this excellent webinar &lt;a href="https://blog.jetbrains.com/idea/2017/07/webinar-recording-why-intellij-idea-is-the-premier-ide-for-grails-3/"&gt;on why IntelliJ IDEA is the premier choice for Grails applications&lt;/a&gt;. I love this because Grails 3 is based on Spring Boot and because Jeff Scott Brown&amp;rsquo;s a great speaker and because IntelliJ make a pretty darned good IDE.&lt;/li&gt;
+  &lt;li&gt;This isn&amp;rsquo;t strictly-speaking related to Spring, but it is a worthy read. &lt;a href="https://specto.io/blog/2016/8/16/recipe-for-designing-building-testing-microservices/"&gt;Daniel Bryant describes a wholistic approach to testing microservices&lt;/a&gt; - and all the components you might use withint them - in this post.&lt;/li&gt;
+  &lt;li&gt;I liked this StackOverflow response from Spring Data lead Oliver Gierke: &lt;a href="https://stackoverflow.com/questions/45967464/how-to-selectively-upgrade-a-dependency-in-spring-boot-sample-case-spring-dat"&gt;&lt;em&gt;How do I selectively upgrade a dependency in Spring Boot?&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Read this &lt;a href="http://www.automate-it.today/about-cloud-foundry-service-brokers/"&gt;post&lt;/a&gt; if you want a quick introduction to what a Cloud Foundry service broker is.&lt;/li&gt;
+  &lt;li&gt;This is also not strictly speaking related to Spring, but it could very well be useful to a number of Spring users building cloud-native applications: &lt;a href="https://www.infoq.com/articles/java-cloud-cost-reduction"&gt;&lt;em&gt;Cost Reduction Strategies on Java Cloud Hosting Services&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Simple installation of Data Flow for Kubernetes with Helm</title>
     <link rel="alternate" href="https://spring.io/blog/2017/08/31/simple-installation-of-data-flow-for-kubernetes-with-helm" />
@@ -1233,9 +1264,10 @@ needed to take to customize the project to suit your company&amp;#8217;s needs. 
   private var nettyContext: BlockingNettyContext? = null&#xD;
   &#xD;
   constructor(port: Int = 8080) {&#xD;
-    val context = GenericApplicationContext()&#xD;
-    beans().invoke(context)&#xD;
-    context.refresh()&#xD;
+    val context = GenericApplicationContext().apply {&#xD;
+        beans().initialize(this)&#xD;
+        refresh()&#xD;
+    }&#xD;
     server = HttpServer.create(port)&#xD;
     httpHandler = WebHttpHandlerBuilder.applicationContext(context).build()&#xD;
   }&#xD;
@@ -1445,47 +1477,6 @@ fun main(args: Array&amp;lt;String&amp;gt;) {&#xD;
 &lt;p&gt;&lt;a href="http://projects.spring.io/spring-security-oauth/"&gt;Project Page&lt;/a&gt; |
 &lt;a href="https://github.com/spring-projects/spring-security-oauth/"&gt;GitHub&lt;/a&gt; |
 &lt;a href="http://projects.spring.io/spring-security-oauth/docs/Home.html"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-security-oauth2"&gt;Help&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Session MongoDB 2.0.0.M2 released</title>
-    <link rel="alternate" href="https://spring.io/blog/2017/07/27/spring-session-mongodb-2-0-0-m2-released" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Greg Turnquist</name>
-    </author>
-    <id>tag:spring.io,2017-07-27:2992</id>
-    <updated>2017-07-27T20:11:58Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;Dear Spring Community,&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Spring Session MongoDB 2.0.0.M2 is released. It is based on:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="ulist"&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Spring Session 2.0.0.M3&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Spring Data Kay-RC2&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Reactor Bismuth-M3&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Spring 5.0.0.RC3&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;This is the first milestone with Reactor support, making it usable with Spring WebFlux.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;In the meantime, you can get the bits today if you visit the project site, get the coordinates, and &lt;em&gt;include the version number&lt;/em&gt; in your Spring Boot application.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="http://projects.spring.io/spring-session-data-mongodb/"&gt;Project Site&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-session-data-mongodb/docs/2.0.0.M2/reference/htmlsingle/"&gt;Reference&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-session+mongodb"&gt;Help&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;</content>
   </entry>
 </feed>

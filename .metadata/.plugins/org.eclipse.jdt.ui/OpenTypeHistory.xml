@@ -2,4 +2,5 @@
 <typeInfoHistroy>
 <typeInfo handle="=Chapter-11-Spring-Reactive-Pattern/C:\/Users\/Dinesh.Rajput\/.m2\/repository\/org\/springframework\/data\/spring-data-commons\/2.0.0.RC2\/spring-data-commons-2.0.0.RC2.jar&lt;org.springframework.data.repository(CrudRepository.class[CrudRepository" modifiers="1537" timestamp="1504375525911"/>
 <typeInfo handle="=Chapter-11-Spring-Reactive-Pattern/C:\/Users\/Dinesh.Rajput\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.0.0.RC2\/spring-data-jpa-2.0.0.RC2.jar&lt;org.springframework.data.jpa.repository.support(CrudMethodMetadata.class[CrudMethodMetadata" modifiers="1537" timestamp="1504375518734"/>
+<typeInfo handle="=Chapter-11-Spring-Reactive-Pattern/src\/main\/java&lt;com.packt.patterninspring.chapter11.reactivewebapp.repository{AccountRepository.java[AccountRepository" modifiers="513" timestamp="1504429400048"/>
 </typeInfoHistroy>

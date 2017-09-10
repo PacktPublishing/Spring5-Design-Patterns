@@ -1,0 +1,8 @@
+1505029687088	Rename type 'Person'
+1505029706796	Rename type 'DummyPersonRepository'
+1505029723572	Rename type 'PersonHandler'
+1505029768315	Rename type 'AccountRepository'
+1505029779659	Rename type 'PersonRepository'
+1505030236802	Rename package 'com.packt.patterninspring.chapter11.reactivewebapp.repository'
+1505030252992	Delete elements
+1505031140650	Move compilation unit

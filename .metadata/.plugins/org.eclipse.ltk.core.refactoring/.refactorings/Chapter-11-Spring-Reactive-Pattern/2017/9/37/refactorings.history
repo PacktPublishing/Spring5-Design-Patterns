@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.packt.patterninspring.chapter11.reactivewebapp.repository&apos; to &apos;Chapter-11-Spring-Reactive-Web-Functional/src&apos;&#x0D;&#x0A;- Original project: &apos;Chapter-11-Spring-Reactive-Pattern&apos;&#x0D;&#x0A;- Destination element: &apos;Chapter-11-Spring-Reactive-Web-Functional/src&apos;&#x0D;&#x0A;- Original element: &apos;Chapter-11-Spring-Reactive-Pattern/src/main/java/com.packt.patterninspring.chapter11.reactivewebapp.repository&apos;" description="Copy package" destination="=Chapter-11-Spring-Reactive-Web-Functional/src" element1="/src\/main\/java&lt;com.packt.patterninspring.chapter11.reactivewebapp.repository" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1505030187132" version="1.0"/>
+</session>
