@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.decorator.pattern.SeniorCitizen"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.decorator.pattern.Privilege"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.facade.pattern.PaymentService"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.facade.pattern.AccountService"/>
@@ -60,4 +59,5 @@
 <fullyQualifiedTypeName name="org.junit.Before"/>
 <fullyQualifiedTypeName name="org.springframework.http.MediaType"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter11.reactivewebapp.model.Account"/>
+<fullyQualifiedTypeName name="com.packt.patterninspring.chapter11.web.reactive.model.Account"/>
 </qualifiedTypeNameHistroy>

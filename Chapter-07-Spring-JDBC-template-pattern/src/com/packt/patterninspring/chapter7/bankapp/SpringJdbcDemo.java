@@ -15,7 +15,7 @@ public class SpringJdbcDemo {
 	public static void main(String[] args) {
 		ConfigurableApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
 		TransferService transferService = applicationContext.getBean(TransferService.class);
-		transferService.transfer(50000l, 1l, 2l);
+		transferService.transfer(50000l, 1000l, 2000l);
 		applicationContext.close();
 	}
 }

@@ -1,6 +1,7 @@
 package com.packt.patterninspring.chapter8.bankapp.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.TransactionStatus;
@@ -19,7 +20,9 @@ public class AccountServiceImpl implements AccountService {
 	
 	//single TransactionTemplate shared amongst all methods in this instance
 	private final TransactionTemplate transactionTemplate;
+	
 	@Autowired
+	@Qualifier("hibernateAccountRepository")
 	AccountRepository accountRepository;
 	
 	// use constructor-injection to supply the PlatformTransactionManager

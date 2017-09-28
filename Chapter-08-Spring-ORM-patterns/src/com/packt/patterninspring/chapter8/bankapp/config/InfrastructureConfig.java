@@ -4,11 +4,12 @@ import java.util.Properties;
 
 import javax.sql.DataSource;
 
+import org.hibernate.SessionFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType;
+import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
@@ -41,7 +42,7 @@ public class InfrastructureConfig {
 	}
 	
 	@Bean //implementation
-	public PlatformTransactionManager transactionManager(){
-		return new DataSourceTransactionManager(dataSource());
+	public PlatformTransactionManager transactionManager(SessionFactory sessionFactory){
+		return new HibernateTransactionManager(sessionFactory);
 	}
 }

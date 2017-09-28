@@ -1,11 +1,17 @@
 package com.packt.patterninspring.chapter8.bankapp.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
 /**
  * @author Dinesh.Rajput
  *
  */
+@Table
+@Entity
 public class Account {
-	
+	@Id
 	Long id;
 	Long balance;
 	String name;

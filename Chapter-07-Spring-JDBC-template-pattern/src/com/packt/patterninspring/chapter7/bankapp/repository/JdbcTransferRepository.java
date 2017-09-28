@@ -3,6 +3,7 @@ package com.packt.patterninspring.chapter7.bankapp.repository;
 import javax.sql.DataSource;
 
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
 
 import com.packt.patterninspring.chapter7.bankapp.model.Account;
 
@@ -10,6 +11,7 @@ import com.packt.patterninspring.chapter7.bankapp.model.Account;
  * @author Dinesh.Rajput
  *
  */
+@Repository
 public class JdbcTransferRepository implements TransferRepository {
 	
 	JdbcTemplate jdbcTemplate;

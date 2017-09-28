@@ -31,6 +31,7 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="Chapter-11-Spring-Reactive-Web-Functional"/>
 			<item value="Chapter-05-Custom-Scope-Bean"/>
 			<item value="Chapter-10-Spring-MVC-pattern"/>
 			<item value="Chapter-09-Spring-Cache"/>
@@ -42,6 +43,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Chapter-11-Spring-Reactive-Web-Functional"/>
 			<item value="Chapter-05-Custom-Scope-Bean"/>
 			<item value="Chapter-10-Spring-MVC-pattern"/>
 			<item value="Chapter-09-Spring-Cache"/>
