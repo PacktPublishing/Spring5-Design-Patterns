@@ -1,3 +1,4 @@
 GitRepositoriesView.GitDirectories=D\:\\packt-book-workspace\\.git;
 GitRepositoriesView.GitDirectories.relative=.git;
+core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.decorator.pattern.Privilege"/>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.facade.pattern.PaymentService"/>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.facade.pattern.AccountService"/>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.facade.pattern.TransferService"/>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.facade.pattern.BankingServiceFacade"/>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.facade.pattern.BankingServiceFacadeImpl"/>
-<fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.model.CurrentAccount"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.decorator.pattern.Account"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.model.SavingAccount"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter2.model.Account"/>
@@ -29,19 +22,16 @@
 <fullyQualifiedTypeName name="org.springframework.jdbc.core.RowMapper"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter7.bankapp.callbacks.AccountReportWriter"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter7.bankapp.model.Account"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="org.springframework.jdbc.core.support.JdbcDaoSupport"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter7.bankapp.callbacks.AccountRowMapper"/>
 <fullyQualifiedTypeName name="org.springframework.orm.hibernate5.LocalSessionFactoryBean"/>
-<fullyQualifiedTypeName name="org.springframework.transaction.annotation.EnableTransactionManagement"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 <fullyQualifiedTypeName name="org.springframework.transaction.TransactionStatus"/>
 <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter7.bankapp.config.AppConfig"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter9.bankapp.service.AccountService"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="org.springframework.cache.annotation.CachePut"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
 <fullyQualifiedTypeName name="org.springframework.cache.annotation.CacheEvict"/>
@@ -55,9 +45,19 @@
 <fullyQualifiedTypeName name="java.io.Serializable"/>
 <fullyQualifiedTypeName name="org.springframework.data.repository.Repository"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
 <fullyQualifiedTypeName name="org.junit.Before"/>
 <fullyQualifiedTypeName name="org.springframework.http.MediaType"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter11.reactivewebapp.model.Account"/>
 <fullyQualifiedTypeName name="com.packt.patterninspring.chapter11.web.reactive.model.Account"/>
+<fullyQualifiedTypeName name="org.springframework.transaction.annotation.EnableTransactionManagement"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="org.springframework.orm.hibernate3.HibernateTransactionManager"/>
+<fullyQualifiedTypeName name="org.springframework.orm.hibernate5.HibernateTransactionManager"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport"/>
 </qualifiedTypeNameHistroy>

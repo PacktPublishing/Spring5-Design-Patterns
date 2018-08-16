@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 /**
@@ -19,7 +19,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @Configuration
 @ComponentScan(basePackages = {"com.packt.patterninspring.chapter10.bankapp.web.controller"})	
 @EnableWebMvc
-public class SpringMvcConfig extends WebMvcConfigurerAdapter{
+public class SpringMvcConfig extends WebMvcConfigurationSupport{
 	
 	@Bean
 	public ViewResolver viewResolver(){
