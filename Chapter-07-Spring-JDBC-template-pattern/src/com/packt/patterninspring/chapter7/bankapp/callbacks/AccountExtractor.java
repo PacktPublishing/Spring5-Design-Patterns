@@ -25,6 +25,7 @@ public class AccountExtractor implements ResultSetExtractor<List<Account>> {
 				extractedAccounts = new ArrayList<>();
 				//account = new Account(resultSet.getLong("ID"), resultSet.getString("NAME"));
 			}
+			account = new Account(resultSet.getLong("ID"), resultSet.getString("NAME"));
 			extractedAccounts.add(account);
 		}
 		return extractedAccounts;
