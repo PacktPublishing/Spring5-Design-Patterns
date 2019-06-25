@@ -5,7 +5,7 @@ package com.packt.patterninspring.chapter2.singleton.pattern;
  *
  */
 public class SingletonClass {
-	private static SingletonClass instance = null;
+	private static volatile SingletonClass instance = null;
     private SingletonClass() {
     }
     public static SingletonClass getInstance() {
