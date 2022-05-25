@@ -5,7 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   
   <properties>
-  	<spring.version>5.0.2.RELEASE</spring.version>
+  	<spring.version>5.2.22.RELEASE</spring.version>
   	<aspectj.version>1.8.9</aspectj.version>
   </properties>
 
