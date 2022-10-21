@@ -32,3 +32,7 @@ This book can be read without a computer or laptop at hand, in which case you ne
 
 * [Mastering Spring 5.0](https://www.packtpub.com/application-development/mastering-spring-50?utm_source=github&utm_medium=repository&utm_campaign=9781787123175)
 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781788299459">https://packt.link/free-ebook/9781788299459 </a> </p>
