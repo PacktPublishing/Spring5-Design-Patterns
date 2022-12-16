@@ -6,7 +6,7 @@
   <packaging>war</packaging>
   
    <properties>
-  	<spring.version>4.3.8.RELEASE</spring.version>
+  	<spring.version>5.2.20.RELEASE</spring.version>
   	<aspectj.version>1.8.9</aspectj.version>
   </properties>
   
